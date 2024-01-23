@@ -2,10 +2,6 @@
 	require_once "Data.php";
 
 	class Query extends Data{
-		
-		
-		
-
 		public function ThemMoi($table, $fields, $forms)
 		{
 			# table 		table database

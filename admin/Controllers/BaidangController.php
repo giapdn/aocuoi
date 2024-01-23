@@ -1,7 +1,7 @@
 <?php 
 
 require_once "Models/baidang.php";
-class BaidangController{
+class BaiDangController{
     
     protected $use;
     protected $baidang;
@@ -64,19 +64,19 @@ class BaidangController{
             }
         }
     }
-    public function search(){
-        if (isset($_POST['btn'])) {
-            $tieu_de = isset($_POST['noidung']) ? $_POST['noidung'] : '';
-            $ketqua =$this->baidang-> timkiem($tieu_de);
-            if ($ketqua) {
-                foreach ($ketqua as $baidang) {
-                    echo $baidang['tieu_de'] . '<br>';
-                }
-            } else {
-                echo 'Không tìm thấy kết quả nào.';
-            }
-        }
-    }
+    // public function search(){
+    //     if (isset($_POST['btn'])) {
+    //         $tieu_de = isset($_POST['noidung']) ? $_POST['noidung'] : '';
+    //         $ketqua =$this->baidang-> timkiem($tieu_de);
+    //         if ($ketqua) {
+    //             foreach ($ketqua as $baidang) {
+    //                 echo $baidang['tieu_de'] . '<br>';
+    //             }
+    //         } else {
+    //             echo 'Không tìm thấy kết quả nào.';
+    //         }
+    //     }
+    // }
 }
 
 
