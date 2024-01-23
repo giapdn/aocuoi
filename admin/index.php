@@ -3,11 +3,10 @@ include "Views/header.php";
 include "Views/box_left.php";
 require_once "Controllers/ProductController.php";
 require_once "Controllers/CategoryController.php";
-require_once "Controllers/BaidangController.php";
-require_once "Controllers/BaidangController.php";
+require_once "Controllers/BaiDangController.php";
 $prodCtrllers = new ProductController();
 $categoryCtrll = new CategoryController();
-$baidangCtrll = new BaidangController();
+$baidangCtrll = new BaiDangController();
 $url = isset($_GET['url']) == true ? $_GET['url'] : '/';
 
 switch ($url) {
