@@ -31,7 +31,7 @@
                                         <input type="submit" name="" value="xóa">
                                     </form>
                                     <form action="<?= $sua?>" method="post">
-                                        <input type="submit" name="sua" value="sửa">
+                                        <input type="submit" name="sua-category" value="sửa">
                                     </form>
                                 </div>
                             </td>
