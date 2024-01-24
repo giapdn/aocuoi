@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>FStudio</title>
+    <title>Kenne</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="Kenne is a stunning html template for an expansion eCommerce site that suitable for any kind of fashion store. It will make your online store look more impressive and attractive to viewers. ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -102,7 +102,7 @@
                         <div class="col-lg-12">
                             <div class="header-middle_nav">
 
-                             
+
 
                                 <div class="header-logo_area">
                                     <a href="index.html">
@@ -122,18 +122,18 @@
                                 </div>
 
                                 <div class="header-search_area d-none d-lg-block">
-                                    <form class="search-form" action="#" >
+                                    <form class="search-form" action="#">
                                         <input type="text" placeholder="Tìm kiếm">
                                         <button class="search-button"><i class="ion-ios-search"></i></button>
                                     </form>
                                 </div>
 
 
-                           
 
 
 
-                            
+
+
                                 <div class="header-right_area d-none d-lg-inline-block">
                                     <ul>
                                         <li class="mobile-menu_wrap d-flex d-lg-none">
@@ -160,7 +160,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </div> 
+                                </div>
 
                             </div>
                         </div>
@@ -176,22 +176,22 @@
                                             <li class="dropdown-holder"><a href="index.php?url=/">Trang chủ</a>
 
                                             </li>
-                                            <li ><a href="index.php?url=productpage">Váy cưới đẹp<i class="ion-chevron-down"></i></a>
+                                            <li><a href="index.php?url=productpage">Váy cưới đẹp<i class="ion-chevron-down"></i></a>
                                                 <ul class="kenne-dropdown">
-                                                <li><a href="index.php?url=productpage">Váy cưới đi làm lễ</a></li>
-                                                <li><a href="index.php?url=productpage">Váy cưới đi bàn</a></li>
+                                                    <li><a href="index.php?url=productpage">Váy cưới đi làm lễ</a></li>
+                                                    <li><a href="index.php?url=productpage">Váy cưới đi bàn</a></li>
                                                     <li><a href="index.php?url=productpage">Áo dài cưới</a></li>
                                                     <!-- <li><a href="index.php?url=page">Page</a></li> -->
                                                 </ul>
 
 
 
-                                                
+
                                             </li>
                                             <li><a href="index.php?url=page">Bộ sưu tập<i class="ion-chevron-down"></i></a>
                                                 <ul class="kenne-dropdown">
-                                                    <li><a href="coming-soon_page.html">Coming Soon</a></li>
-                                                    <li><a href="index.php?url=page">Page</a></li>
+                                                    <li><a href="coming-soon_page.html">Bộ sưu tập hot 2023</a></li>
+                                                    <li><a href="index.php?url=page">Bộ sưu tập độc quyền</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="javascript:void(0)">Dịch vụ khác<i class="ion-chevron-down"></i></a>
@@ -217,134 +217,50 @@
                             <div class="col-lg-12">
                                 <div class="sticky-header_nav position-relative">
                                     <div class="row align-items-center justify-content-between">
-                                        <div class="col-lg-2 col-sm-6">
+                                        <div class="col-lg-2 col-sm-6" >
                                             <div class="header-logo_area">
                                                 <a href="index.html">
                                                     <img src="client/assets/images/menu/logo/1.png" alt="Header Logo">
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-lg-7 d-none d-lg-block position-static">
+                                        <div class="col-lg-7 d-none d-lg-block position-static" style="width:auto">
                                             <div class="main-menu_area">
                                                 <nav class="main-nav d-flex justify-content-center">
                                                     <ul>
-                                                        <li class="dropdown-holder"><a href="index.php?url=/">Home</a>
+                                                        <li class="dropdown-holder"><a href="index.php?url=/">Trang chủ</a>
                                                         </li>
-                                                        <li class="megamenu-holder position-static"><a href="index.php?url=productpage">Shop <i class="ion-chevron-down"></i></a>
-                                                            <ul class="kenne-megamenu">
-                                                                <li><span class="megamenu-title">Shop Page Layout</span>
-                                                                    <ul>
-                                                                        <li><a href="shop-fullwidth.html">Grid
-                                                                                Fullwidth</a>
-                                                                        </li>
-                                                                        <li><a href="shop-left-sidebar.html">Left
-                                                                                Sidebar</a>
-                                                                        </li>
-                                                                        <li><a href="shop-right-sidebar.html">Right
-                                                                                Sidebar</a>
-                                                                        </li>
-                                                                        <li><a href="shop-list-fullwidth.html">List
-                                                                                Fullwidth</a></li>
-                                                                        <li><a href="shop-list-left-sidebar.html">List
-                                                                                Left
-                                                                                Sidebar</a>
-                                                                        </li>
-                                                                        <li><a href="shop-list-right-sidebar.html">List
-                                                                                Right
-                                                                                Sidebar</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li><span class="megamenu-title">Single Product
-                                                                        Style</span>
-                                                                    <ul>
-                                                                        <li><a href="single-product-gallery-left.html">Gallery
-                                                                                Left</a>
-                                                                        </li>
-                                                                        <li><a href="single-product-gallery-right.html">Gallery
-                                                                                Right</a>
-                                                                        </li>
-                                                                        <li><a href="single-product-tab-style-left.html">Tab
-                                                                                Style
-                                                                                Left</a>
-                                                                        </li>
-                                                                        <li><a href="single-product-tab-style-right.html">Tab
-                                                                                Style
-                                                                                Right</a>
-                                                                        </li>
-                                                                        <li><a href="single-product-sticky-left.html">Sticky
-                                                                                Left</a>
-                                                                        </li>
-                                                                        <li><a href="single-product-sticky-right.html">Sticky
-                                                                                Right</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li><span class="megamenu-title">Single Product
-                                                                        Type</span>
-                                                                    <ul>
-                                                                        <li><a href="single-product.html">Single
-                                                                                Product</a>
-                                                                        </li>
-                                                                        <li><a href="single-product-sale.html">Single
-                                                                                Product
-                                                                                Sale</a>
-                                                                        </li>
-                                                                        <li><a href="single-product-group.html">Single
-                                                                                Product
-                                                                                Group</a>
-                                                                        </li>
-                                                                        <li><a href="single-product-variable.html">Single
-                                                                                Product
-                                                                                Variable</a>
-                                                                        </li>
-                                                                        <li><a href="single-product-affiliate.html">Single
-                                                                                Product
-                                                                                Affiliate</a>
-                                                                        </li>
-                                                                        <li><a href="single-product-slider.html">Single
-                                                                                Product
-                                                                                Slider</a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </li>
-                                                                <li><span class="megamenu-title">Shop Related
-                                                                        Pages</span>
-                                                                    <ul>
-                                                                        <li><a href="my-account.html">My Account</a>
-                                                                        </li>
-                                                                        <li><a href="login-register.html">Login |
-                                                                                Register</a>
-                                                                        </li>
-                                                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                                                        <li><a href="cart.html">Cart</a></li>
-                                                                        <li><a href="checkout.html">Checkout</a></li>
-                                                                        <li><a href="compare.html">Compare</a></li>
-                                                                    </ul>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="index.php?url=page">Pages <i class="ion-chevron-down"></i></a>
+                                                        <li><a href="index.php?url=productpage">Váy cưới đẹp<i class="ion-chevron-down"></i></a>
                                                             <ul class="kenne-dropdown">
-                                                                <li><a href="coming-soon_page.html">Coming Soon</a></li>
-                                                                <li><a href="index.php?url=page">Page</a></li>
+                                                                <li><a href="index.php?url=productpage">Váy cưới đi làm lễ</a></li>
+                                                                <li><a href="index.php?url=productpage">Váy cưới đi bàn</a></li>
+                                                                <li><a href="index.php?url=productpage">Áo dài cưới</a></li>
+                                                                <!-- <li><a href="index.php?url=page">Page</a></li> -->
                                                             </ul>
+
+
+
                                                         </li>
-                                                        <li><a href="javascript:void(0)">Account <i class="ion-chevron-down"></i></a>
+                                                        <li><a href="index.php?url=page">Bộ sự tập <i class="ion-chevron-down"></i></a>
                                                             <ul class="kenne-dropdown">
-                                                                <li><a href="blog-grid_view.html">Tài khoản của tôi</a>
-                                                                </li>
-                                                                <li><a href="blog-list_view.html">Admin</a></li>
-                                                                <li><a href="blog-details.html">Đăng xuất</a></li>
+                                                                <li><a href="coming-soon_page.html">Bộ sưu tập hot 2023</a></li>
+                                                                <li><a href="index.php?url=page">Bộ sưu tập độc quyền</a></li>
                                                             </ul>
                                                         </li>
-                                                        <li><a href="index.php?url=contactus">Contact Us</a></li>
-                                                        <li><a href="index.php?url=aboutus">About Us</a></li>
+                                                        <li><a href="javascript:void(0)">Dịch vụ khác <i class="ion-chevron-down"></i></a>
+                                                            <ul class="kenne-dropdown">
+                                                                <li><a href="blog-grid_view.html">Chụp ảnh cưới</a></li>
+                                                                <li><a href="blog-list_view.html">Hoa cưới</a></li>
+                                                                <li><a href="blog-details.html">Xe hoa</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a href="index.php?url=aboutus">Về FStudio</a></li>
+                                                        <li><a href="index.php?url=contactus">Liên hệ</a></li>
                                                     </ul>
                                                 </nav>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-sm-6">
+                                        <div class="col-lg-3 col-sm-6" style="width:auto">
                                             <div class="header-right_area header-right_area-2">
                                                 <ul>
                                                     <li class="mobile-menu_wrap d-inline-block d-lg-none">

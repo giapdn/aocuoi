@@ -12,16 +12,9 @@
                 Shopify Themes.
             </p>
         </div>
-        <div class="offcanvas-component first-child">
-            <span class="offcanvas-component_title">Currency</span>
-            <ul class="offcanvas-component_menu">
-                <li><a href="javascript:void(0)">EUR</a></li>
-                <li><a href="javascript:void(0)">GBP</a></li>
-                <li class="active"><a href="javascript:void(0)">USD</a></li>
-            </ul>
-        </div>
+      
         <div class="offcanvas-component">
-            <span class="offcanvas-component_title">Language</span>
+            <span class="offcanvas-component_title">Ngôn ngữ</span>
             <ul class="offcanvas-component_menu">
                 <li class="active"><a href="javascript:void(0)">English</a></li>
                 <li><a href="javascript:void(0)">French</a></li>
@@ -185,7 +178,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title">
-                    <h3>New Product</h3>
+                    <h3>Sản phẩm</h3>
                     <div class="product-arrow"></div>
                 </div>
             </div>
