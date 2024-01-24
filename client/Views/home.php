@@ -53,8 +53,7 @@
                         </a>
                     </li>
                     <li class="google-plus">
-                        <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip" target="_blank"
-                            title="Google Plus">
+                        <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip" target="_blank" title="Google Plus">
                             <i class="fab fa-google-plus"></i>
                         </a>
                     </li>
@@ -143,14 +142,25 @@
 <!-- Slider Area Two End Here -->
 
 <!-- Begin Banner Area Three -->
-<div class="banner-area-3">
+<div class="banner-area-3" style="background-color:#FDF8F6;">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-6 custom-xxs-col">
+            <div class="col-lg-4 col-6 custom-xxs-col" style="padding-bottom:80px;">
                 <div class="banner-item img-hover_effect">
                     <div class="banner-img">
                         <a href="javascrip:void(0)">
-                            <img class="img-full" src="client/assets/images/banner/2-1.jpg" alt="Banner">
+                            <img class="img-full" src="client/assets/images/banner/vay-cuoi-lam-le-Diamond-LDM01-1-768x960.jpg" alt="Banner">
+                            <h1>Váy cưới làm lễ</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-6 custom-xxs-col">
+                <div class="banner-item img-hover_effect">
+                    <div class="banner-img"  position: relative;>
+                        <a href="javascrip:void(0)">
+                        <img class="img-full" src="client/assets/images/banner/ao-dai-kim-ADK01-3-550x688.jpg" alt="Banner">
+                            <h1>Áo dài cưới</h1>
                         </a>
                     </div>
                 </div>
@@ -159,17 +169,8 @@
                 <div class="banner-item img-hover_effect">
                     <div class="banner-img">
                         <a href="javascrip:void(0)">
-                            <img class="img-full" src="client/assets/images/banner/2-2.jpg" alt="Banner">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-6 custom-xxs-col">
-                <div class="banner-item img-hover_effect">
-                    <div class="banner-img">
-                        <a href="javascrip:void(0)">
-                            <img class="img-full" src="client/assets/images/banner/2-3.jpg" alt="Banner">
-                        </a>
+                            <img class="img-full" src="client/assets/images/banner/vay-cuoi-di-tiec-Diamond-NDM13-1-768x960.jpg" alt="Banner">
+                            <h1>Váy cưới đi bàn</h1>
                     </div>
                 </div>
             </div>
@@ -209,31 +210,79 @@
                         }}
                     ]'>
 
+
+
+
+
+
+
                     <div class="product-item">
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/1-1.jpg"
-                                        alt="Kenne's Product Image">
-                                    <img class="secondary-img" src="client/assets/images/product/1-2.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/1-1.jpg" alt="Kenne's Product Image">
+                                    <img class="secondary-img" src="client/assets/images/product/1-2.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker-2">Hot</span>
                                 <div class="add-actions">
                                     <ul>
-                                        <li class="quick-view-btn" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i
-                                                    class="ion-ios-search"></i></a>
+                                        <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                         </li>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Compare"><i class="ion-ios-reload"></i></a>
+                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To cart"><i class="ion-bag"></i></a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="product-content">
+                                <div class="product-desc_info">
+                                    <h3 class="product-name"><a href="single-product.html">Quibusdam ratione</a></h3>
+                                    <div class="price-box">
+                                        <span class="new-price">$46.91</span>
+                                        <span class="old-price">$50.99</span>
+                                    </div>
+                                    <div class="rating-box">
+                                        <ul>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li><i class="ion-ios-star"></i></li>
+                                            <li class="silver-color"><i class="ion-ios-star-half"></i></li>
+                                            <li class="silver-color"><i class="ion-ios-star-outline"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div class="product-item">
+                        <div class="single-product">
+                            <div class="product-img">
+                                <a href="single-product.html">
+                                    <img class="primary-img" src="client/assets/images/product/1-1.jpg" alt="Kenne's Product Image">
+                                    <img class="secondary-img" src="client/assets/images/product/1-2.jpg" alt="Kenne's Product Image">
+                                </a>
+                                <span class="sticker-2">Hot</span>
+                                <div class="add-actions">
+                                    <ul>
+                                        <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
+                                        </li>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        </li>
+                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
+                                        </li>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -262,27 +311,19 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/2-1.jpg"
-                                        alt="Kenne's Product Image">
-                                    <img class="secondary-img" src="client/assets/images/product/2-2.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/2-1.jpg" alt="Kenne's Product Image">
+                                    <img class="secondary-img" src="client/assets/images/product/2-2.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker">Bestseller</span>
                                 <div class="add-actions">
                                     <ul>
-                                        <li class="quick-view-btn" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i
-                                                    class="ion-ios-search"></i></a>
+                                        <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                         </li>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Compare"><i class="ion-ios-reload"></i></a>
+                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To cart"><i class="ion-bag"></i></a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -311,27 +352,19 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/3-1.jpg"
-                                        alt="Kenne's Product Image">
-                                    <img class="secondary-img" src="client/assets/images/product/3-2.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/3-1.jpg" alt="Kenne's Product Image">
+                                    <img class="secondary-img" src="client/assets/images/product/3-2.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker-2">Hot</span>
                                 <div class="add-actions">
                                     <ul>
-                                        <li class="quick-view-btn" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i
-                                                    class="ion-ios-search"></i></a>
+                                        <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                         </li>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Compare"><i class="ion-ios-reload"></i></a>
+                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To cart"><i class="ion-bag"></i></a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -360,27 +393,19 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/4-1.jpg"
-                                        alt="Kenne's Product Image">
-                                    <img class="secondary-img" src="client/assets/images/product/4-2.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/4-1.jpg" alt="Kenne's Product Image">
+                                    <img class="secondary-img" src="client/assets/images/product/4-2.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker">Bestseller</span>
                                 <div class="add-actions">
                                     <ul>
-                                        <li class="quick-view-btn" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i
-                                                    class="ion-ios-search"></i></a>
+                                        <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                         </li>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Compare"><i class="ion-ios-reload"></i></a>
+                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To cart"><i class="ion-bag"></i></a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -409,27 +434,19 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/5-1.jpg"
-                                        alt="Kenne's Product Image">
-                                    <img class="secondary-img" src="client/assets/images/product/5-2.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/5-1.jpg" alt="Kenne's Product Image">
+                                    <img class="secondary-img" src="client/assets/images/product/5-2.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker-2">Hot</span>
                                 <div class="add-actions">
                                     <ul>
-                                        <li class="quick-view-btn" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i
-                                                    class="ion-ios-search"></i></a>
+                                        <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                         </li>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Compare"><i class="ion-ios-reload"></i></a>
+                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To cart"><i class="ion-bag"></i></a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -459,27 +476,19 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/6-1.jpg"
-                                        alt="Kenne's Product Image">
-                                    <img class="secondary-img" src="client/assets/images/product/6-2.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/6-1.jpg" alt="Kenne's Product Image">
+                                    <img class="secondary-img" src="client/assets/images/product/6-2.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker">Bestseller</span>
                                 <div class="add-actions">
                                     <ul>
-                                        <li class="quick-view-btn" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i
-                                                    class="ion-ios-search"></i></a>
+                                        <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                         </li>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Compare"><i class="ion-ios-reload"></i></a>
+                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To cart"><i class="ion-bag"></i></a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -508,27 +517,19 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/7-1.jpg"
-                                        alt="Kenne's Product Image">
-                                    <img class="secondary-img" src="client/assets/images/product/7-2.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/7-1.jpg" alt="Kenne's Product Image">
+                                    <img class="secondary-img" src="client/assets/images/product/7-2.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker-2">Hot</span>
                                 <div class="add-actions">
                                     <ul>
-                                        <li class="quick-view-btn" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i
-                                                    class="ion-ios-search"></i></a>
+                                        <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                         </li>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Compare"><i class="ion-ios-reload"></i></a>
+                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To cart"><i class="ion-bag"></i></a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -558,27 +559,19 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/8-1.jpg"
-                                        alt="Kenne's Product Image">
-                                    <img class="secondary-img" src="client/assets/images/product/8-2.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/8-1.jpg" alt="Kenne's Product Image">
+                                    <img class="secondary-img" src="client/assets/images/product/8-2.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker">Bestseller</span>
                                 <div class="add-actions">
                                     <ul>
-                                        <li class="quick-view-btn" data-bs-toggle="modal"
-                                            data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i
-                                                    class="ion-ios-search"></i></a>
+                                        <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                         </li>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To Compare"><i class="ion-ios-reload"></i></a>
+                                        <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                title="Add To cart"><i class="ion-bag"></i></a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -626,8 +619,7 @@
                             Wallets & More!
                         </h3>
                         <div class="kenne-btn-ps_center">
-                            <a class="kenne-btn transparent-btn black-color square-btn"
-                                href="shop-left-sidebar.html">Discover Now</a>
+                            <a class="kenne-btn transparent-btn black-color square-btn" href="shop-left-sidebar.html">Discover Now</a>
                         </div>
                     </div>
                 </div>
@@ -657,8 +649,7 @@
             <div class="col-lg-12">
                 <div class="tab-content kenne-tab_content">
                     <div id="bag" class="tab-pane active show" role="tabpanel">
-                        <div class="kenne-element-carousel product-tab_slider slider-nav product-tab_arrow"
-                            data-slick-options='{
+                        <div class="kenne-element-carousel product-tab_slider slider-nav product-tab_arrow" data-slick-options='{
                                     "slidesToShow": 4,
                                     "slidesToScroll": 1,
                                     "infinite": false,
@@ -681,29 +672,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/5-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/5-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/5-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/5-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker-2">Hot</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -733,29 +714,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/6-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/6-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/6-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/6-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -786,29 +757,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/7-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/7-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/7-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/7-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker-2">Hot</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -840,29 +801,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/8-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/8-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/8-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/8-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -893,29 +844,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/1-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/1-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/1-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/1-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker-2">Hot</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -946,29 +887,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/2-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/2-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/2-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/2-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -998,29 +929,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/3-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/3-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/3-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/3-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker-2">Hot</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1051,29 +972,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/4-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/4-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/4-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/4-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1104,8 +1015,7 @@
                         </div>
                     </div>
                     <div id="plaid-shirts" class="tab-pane" role="tabpanel">
-                        <div class="kenne-element-carousel product-tab_slider slider-nav product-tab_arrow"
-                            data-slick-options='{
+                        <div class="kenne-element-carousel product-tab_slider slider-nav product-tab_arrow" data-slick-options='{
                                     "slidesToShow": 4,
                                     "slidesToScroll": 1,
                                     "infinite": false,
@@ -1125,29 +1035,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/7-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/7-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/7-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/7-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker-2">Hot</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1179,29 +1079,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/8-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/8-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/8-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/8-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1232,29 +1122,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/6-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/6-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/6-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/6-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1285,29 +1165,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/2-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/2-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/2-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/2-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1337,29 +1207,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/3-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/3-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/3-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/3-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker-2">Hot</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1390,29 +1250,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/5-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/5-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/5-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/5-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker-2">Hot</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1442,8 +1292,7 @@
                         </div>
                     </div>
                     <div id="shoes" class="tab-pane" role="tabpanel">
-                        <div class="kenne-element-carousel product-tab_slider slider-nav product-tab_arrow"
-                            data-slick-options='{
+                        <div class="kenne-element-carousel product-tab_slider slider-nav product-tab_arrow" data-slick-options='{
                                     "slidesToShow": 4,
                                     "slidesToScroll": 1,
                                     "infinite": false,
@@ -1463,29 +1312,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/2-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/2-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/2-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/2-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1515,29 +1354,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/3-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/3-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/3-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/3-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker-2">Hot</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1568,29 +1397,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/8-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/8-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/8-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/8-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1621,29 +1440,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/1-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/1-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/1-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/1-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker-2">Hot</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1674,29 +1483,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/2-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/2-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/2-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/2-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1726,29 +1525,19 @@
                                 <div class="single-product">
                                     <div class="product-img">
                                         <a href="single-product.html">
-                                            <img class="primary-img" src="client/assets/images/product/6-1.jpg"
-                                                alt="Kenne's Product Image">
-                                            <img class="secondary-img" src="client/assets/images/product/6-2.jpg"
-                                                alt="Kenne's Product Image">
+                                            <img class="primary-img" src="client/assets/images/product/6-1.jpg" alt="Kenne's Product Image">
+                                            <img class="secondary-img" src="client/assets/images/product/6-2.jpg" alt="Kenne's Product Image">
                                         </a>
                                         <span class="sticker">Bestseller</span>
                                         <div class="add-actions">
                                             <ul>
-                                                <li class="quick-view-btn" data-bs-toggle="modal"
-                                                    data-bs-target="#exampleModalCenter"><a href="javascript:void(0)"
-                                                        data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Quick View"><i class="ion-ios-search"></i></a>
+                                                <li class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"><a href="javascript:void(0)" data-bs-toggle="tooltip" data-placement="right" title="Quick View"><i class="ion-ios-search"></i></a>
                                                 </li>
-                                                <li><a href="wishlist.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Wishlist"><i
-                                                            class="ion-ios-heart-outline"></i></a>
+                                                <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                                 </li>
-                                                <li><a href="compare.html" data-bs-toggle="tooltip"
-                                                        data-placement="right" title="Add To Compare"><i
-                                                            class="ion-ios-reload"></i></a>
+                                                <li><a href="compare.html" data-bs-toggle="tooltip" data-placement="right" title="Add To Compare"><i class="ion-ios-reload"></i></a>
                                                 </li>
-                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right"
-                                                        title="Add To cart"><i class="ion-bag"></i></a>
+                                                <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="right" title="Add To cart"><i class="ion-bag"></i></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -1820,8 +1609,7 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/8-1.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/8-1.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker-2">-10%</span>
                             </div>
@@ -1837,11 +1625,9 @@
                                 </div>
                                 <div class="add-actions">
                                     <ul>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top"
-                                                title="Add To cart">Add to cart</a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart">Add to cart</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1852,8 +1638,7 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/6-2.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/6-2.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker">Sale</span>
                             </div>
@@ -1869,11 +1654,9 @@
                                 </div>
                                 <div class="add-actions">
                                     <ul>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top"
-                                                title="Add To cart">Add to cart</a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart">Add to cart</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1884,8 +1667,7 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/4-1.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/4-1.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker-2">-15%</span>
                             </div>
@@ -1901,11 +1683,9 @@
                                 </div>
                                 <div class="add-actions">
                                     <ul>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top"
-                                                title="Add To cart">Add to cart</a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart">Add to cart</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1916,8 +1696,7 @@
                         <div class="single-product">
                             <div class="product-img">
                                 <a href="single-product.html">
-                                    <img class="primary-img" src="client/assets/images/product/1-1.jpg"
-                                        alt="Kenne's Product Image">
+                                    <img class="primary-img" src="client/assets/images/product/1-1.jpg" alt="Kenne's Product Image">
                                 </a>
                                 <span class="sticker-2">-20%</span>
                             </div>
@@ -1933,11 +1712,9 @@
                                 </div>
                                 <div class="add-actions">
                                     <ul>
-                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top"
-                                                title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
+                                        <li><a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Wishlist"><i class="ion-ios-heart-outline"></i></a>
                                         </li>
-                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top"
-                                                title="Add To cart">Add to cart</a>
+                                        <li><a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To cart">Add to cart</a>
                                         </li>
                                     </ul>
                                 </div>

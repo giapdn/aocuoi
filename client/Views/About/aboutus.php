@@ -93,8 +93,8 @@
         <div class="breadcrumb-content">
             <h2>Other</h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="active">About Us</li>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li class="active">Về FStudio</li>
             </ul>
         </div>
     </div>
@@ -113,7 +113,7 @@
             </div>
             <div class="col-lg-6 col-md-7 d-flex align-items-center">
                 <div class="overview-content">
-                    <h2>Welcome To <span>Kenne's</span> Store!</h2>
+                    <h2>Chào mừng bạn đến với<span>FStudio</span></h2>
                     <p class="short_desc">We Provide Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Repudiandae nisi fuga facilis, consequuntur, maiores eveniet voluptatum, omnis possimus
                         temporibus aspernatur nobis animi in exercitationem vitae nulla! Adipisci ullam illum quisquam.
