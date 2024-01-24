@@ -8,7 +8,7 @@
      <div class="row">
          <div class="col-md-12">
             <div class="card">
-                <form action="?url=sua-product"  method="post" enctype="multipart/form-data">
+                <form action="?url=sua-product"  method="post" enctype="multipart/form-data" style="padding: 15px;">
                     <label for="ID">ID sản phẩm </label><br>
                     <input type="text" name="id_san_pham" class="btn btn-primary" readonly value="<?= $id_san_pham ?>"> <br> <br>
                     

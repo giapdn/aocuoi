@@ -12,7 +12,7 @@
 	if(isset($_POST['export']))
 	{
 		// Get list data
-		
+		$dataTin = $query->DanhSach("tin", ["id", "ten", "ngay", "nguoi"]);
 	
 		// Tạo tiêu đề
 		$sheet

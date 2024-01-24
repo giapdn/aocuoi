@@ -4,7 +4,6 @@ require_once "env.php";
 class BaseModel
 {
     private $connect;
-
     public function __construct()
     {
         $this->connect = new PDO(

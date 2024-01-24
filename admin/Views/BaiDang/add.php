@@ -1,11 +1,9 @@
- <!-- Content -->
-
- <div class="container-xxl flex-grow-1 container-p-y">
-     <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Bài viết /</span>Thêm bài viết</h4>
-     <div class="row">
-         <div class="col-md-12">
-             <div class="card">
-             <form action="?url=add-baiviet" method="post" enctype="multipart/form-data">
+<div class="container-xxl flex-grow-1 container-p-y">
+    <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Bài viết /</span>Thêm bài viết</h4>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <form action="?url=add-baiviet" method="post" enctype="multipart/form-data" style="padding: 20px;">
                     <div class="form-group">
                         <label>Tiêu đề</label>
                         <input type="text" class="form-control" name="tieu_de" id="name" placeholder="Nhập tiêu đề cho bài viết">
@@ -25,7 +23,7 @@
                     <br>
                     <div class="form-group">
                         <label>Người đăng</label>
-                        <select class="form-select"  name="username">
+                        <select class="form-select" name="username">
                             <?php foreach ($listusername as $pr) { ?>
                                 <option value="<?php echo $pr["username"] ?>"><?php echo $pr["username"] ?></option>
                             <?php } ?>
@@ -41,14 +39,17 @@
                         <button type="submit" name="them" class="btn btn-primary">Thêm</button>
                     </div>
                 </form>
-             </div>
-         </div>
-     </div>
- </div>
- <script>
+                <form action="?url=import-baidang" method="post" enctype="multipart/form-data">
+                    <input require type="file" name="file">
+                    <input type="submit" value="Tải lên">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
     function goToList() {
         event.preventDefault();
         window.location.href = "?url=list-baiviet";
     }
 </script>
- <!-- / Content -->
