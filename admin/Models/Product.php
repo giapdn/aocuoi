@@ -1,44 +1,29 @@
 <?php
 require_once "BaseModel.php";
+ require_once "khachhang.php";
+
 class Product extends BaseModel
 {
-
-    //cần sửa lại cho phù hợp (sửa lệnh sql, số lượng đối số truyền vào)
-    /*--------
-    ----------
-    ----------*/
-
-
-
-    // public function getProduct($id_product)
-    // {
-    //     if ($id_product == "detail") {
-    //         $sql = "SELECT * FROM `products` WHERE prod_id = '$id_product'";
-    //         return $this->sqlExecute($sql, 1);
-    //     } else {
-    //         $sql = "SELECT * FROM `products`";
-    //         return $this->sqlExecute($sql, 2);
-    //     }
-    // }
-
-    // public function insertProduct($prodName, $prodPrice)
-    // {
-    //     $sql = "INSERT INTO `products`(`prod_name`, `prod_price`) VALUES ('$prodName', '$prodPrice')";
-    //     return $this->sqlExecute($sql, 0);
-    // }
-
-    // public function updateProduct($id, $newName, $newPrice)
-    // {
-    //     $sql = "UPDATE `products` SET `prod_name` = '$newName', `prod_price` = '$newPrice' WHERE `prod_id` = '$id'";
-    //     return $this->sqlExecute($sql, 0);
-    // }
-
-    // public function deleteProduct($prodID)
-    // {
-    //     $sql = "DELETE FROM `products` WHERE `prod_id` = '$prodID'";
-    //     return $this->sqlExecute($sql, 0);
-    // }
-
-    
-    
+    public function allProduct()
+    {
+        $sql = "SELECT * FROM tb_sanpham";
+        return $this->SqlExecute($sql);
+    }
+    public function xoaProduct($id){
+        $sql = "DELETE FROM tb_sanpham WHERE id_san_pham=$id";
+        return $this->SqlExecute($sql);
+    }
+    public function themProduct($ten_san_pham,$gia_san_pham,$img_path_default,$mo_ta_san_pham,$ma_san_pham,$id_danh_muc){
+        $sql = "INSERT INTO tb_sanpham( ten_san_pham, gia_san_pham, img_path_default, mo_ta_san_pham, ma_san_pham, id_danh_muc) 
+        VALUES ('$ten_san_pham','$gia_san_pham','$img_path_default','$mo_ta_san_pham','$ma_san_pham','$id_danh_muc')";
+        return $this->SqlExecute($sql);
+    }
+    public function hienthi($id_san_pham){
+        $sql = "SELECT * FROM tb_sanpham WHERE id_san_pham=$id_san_pham";
+        return $this->SqlExecute($sql, 1);
+    }
+    public function suaProduct($id_san_pham,$ten_san_pham,$gia_san_pham,$img_path_default,$mo_ta_san_pham,$ma_san_pham,$id_danh_muc){
+        $sql = "UPDATE tb_sanpham SET ten_san_pham='$ten_san_pham',gia_san_pham='$gia_san_pham',img_path_default='$img_path_default',mo_ta_san_pham='$mo_ta_san_pham',ma_san_pham='$ma_san_pham',id_danh_muc='$id_danh_muc' WHERE id_san_pham=$id_san_pham";
+        return $this->SqlExecute($sql , 1);
+    }
 }
