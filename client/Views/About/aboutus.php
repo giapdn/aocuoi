@@ -53,8 +53,7 @@
                         </a>
                     </li>
                     <li class="google-plus">
-                        <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip" target="_blank"
-                            title="Google Plus">
+                        <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip" target="_blank" title="Google Plus">
                             <i class="fab fa-google-plus"></i>
                         </a>
                     </li>
@@ -91,10 +90,10 @@
 <div class="breadcrumb-area">
     <div class="container">
         <div class="breadcrumb-content">
-            <h2>Other</h2>
+            <h2>Về Kenne</h2>
             <ul>
                 <li><a href="index.html">Trang chủ</a></li>
-                <li class="active">Về FStudio</li>
+                <li class="active">Về Kenne</li>
             </ul>
         </div>
     </div>
@@ -113,12 +112,10 @@
             </div>
             <div class="col-lg-6 col-md-7 d-flex align-items-center">
                 <div class="overview-content">
-                    <h2>Chào mừng bạn đến với<span>FStudio</span></h2>
-                    <p class="short_desc">We Provide Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Repudiandae nisi fuga facilis, consequuntur, maiores eveniet voluptatum, omnis possimus
-                        temporibus aspernatur nobis animi in exercitationem vitae nulla! Adipisci ullam illum quisquam.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, nulla veniam? Magni aliquid
-                        asperiores magnam. Veniam ex tenetur.</p>
+                    <h2>Chào mừng bạn đến với <span>Kenne</span></h2>
+                    <p class="short_desc">Kim Couture là thương hiệu thiết kế váy cưới cao cấp, được sáng lập bởi Kenne và được ưa chuộng nhất hiện nay trên thị trường.
+
+                        Tuân theo tôn chỉ “Tạo nên những thiết kế váy cưới hoàn hảo, đẳng cấp và tôn được vẻ đẹp của các nàng dâu Việt”, Kenne không ngừng cập nhật xu hướng váy cưới thế giới, cùng sự sáng tạo không ngừng nghỉ để mang đến sự đa dạng cho sản phẩm của mình. Chính nhờ điều này, mà khi đến với Kenne, các cô dâu luôn dễ dàng xinh đẹp và kiêu sa nhất trong ngày trọng đại. </p>
                     <div class="kenne-about-us_btn-area">
                         <a class="about-us_btn" href="shop-left-sidebar.html">Shop Now</a>
                     </div>
@@ -140,7 +137,7 @@
                     </div>
                     <div class="count-title">
                         <h2 class="count">2169</h2>
-                        <span>Project Done</span>
+                        <span>Sản phẩm</span>
                     </div>
                 </div>
             </div>
@@ -151,7 +148,7 @@
                     </div>
                     <div class="count-title">
                         <h2 class="count">869</h2>
-                        <span>Awards Winned</span>
+                        <span></span>
                     </div>
                 </div>
             </div>
@@ -161,8 +158,8 @@
                         <span class="ion-ios-lightbulb-outline"></span>
                     </div>
                     <div class="count-title">
-                        <h2 class="count">689</h2>
-                        <span>Hours Worked</span>
+                        <h2 class="count">100</h2>
+                        <span>Thương hiệu hợp tác</span>
                     </div>
                 </div>
             </div>
@@ -173,7 +170,7 @@
                     </div>
                     <div class="count-title">
                         <h2 class="count">2169</h2>
-                        <span>Happy Customer</span>
+                        <span>Phản hồi tích cực</span>
                     </div>
                 </div>
             </div>
@@ -207,32 +204,27 @@
                         <div class="kenne-social_link">
                             <ul>
                                 <li class="facebook">
-                                    <a href="https://www.facebook.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Facebook">
+                                    <a href="https://www.facebook.com/" data-bs-toggle="tooltip" target="_blank" title="Facebook">
                                         <i class="fab fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li class="twitter">
-                                    <a href="https://twitter.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Twitter">
+                                    <a href="https://twitter.com/" data-bs-toggle="tooltip" target="_blank" title="Twitter">
                                         <i class="fab fa-twitter-square"></i>
                                     </a>
                                 </li>
                                 <li class="youtube">
-                                    <a href="https://www.youtube.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Youtube">
+                                    <a href="https://www.youtube.com/" data-bs-toggle="tooltip" target="_blank" title="Youtube">
                                         <i class="fab fa-youtube"></i>
                                     </a>
                                 </li>
                                 <li class="google-plus">
-                                    <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip"
-                                        target="_blank" title="Google Plus">
+                                    <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip" target="_blank" title="Google Plus">
                                         <i class="fab fa-google-plus"></i>
                                     </a>
                                 </li>
                                 <li class="instagram">
-                                    <a href="https://rss.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Instagram">
+                                    <a href="https://rss.com/" data-bs-toggle="tooltip" target="_blank" title="Instagram">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
@@ -255,32 +247,27 @@
                         <div class="kenne-social_link">
                             <ul>
                                 <li class="facebook">
-                                    <a href="https://www.facebook.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Facebook">
+                                    <a href="https://www.facebook.com/" data-bs-toggle="tooltip" target="_blank" title="Facebook">
                                         <i class="fab fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li class="twitter">
-                                    <a href="https://twitter.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Twitter">
+                                    <a href="https://twitter.com/" data-bs-toggle="tooltip" target="_blank" title="Twitter">
                                         <i class="fab fa-twitter-square"></i>
                                     </a>
                                 </li>
                                 <li class="youtube">
-                                    <a href="https://www.youtube.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Youtube">
+                                    <a href="https://www.youtube.com/" data-bs-toggle="tooltip" target="_blank" title="Youtube">
                                         <i class="fab fa-youtube"></i>
                                     </a>
                                 </li>
                                 <li class="google-plus">
-                                    <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip"
-                                        target="_blank" title="Google Plus">
+                                    <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip" target="_blank" title="Google Plus">
                                         <i class="fab fa-google-plus"></i>
                                     </a>
                                 </li>
                                 <li class="instagram">
-                                    <a href="https://rss.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Instagram">
+                                    <a href="https://rss.com/" data-bs-toggle="tooltip" target="_blank" title="Instagram">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
@@ -303,32 +290,27 @@
                         <div class="kenne-social_link">
                             <ul>
                                 <li class="facebook">
-                                    <a href="https://www.facebook.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Facebook">
+                                    <a href="https://www.facebook.com/" data-bs-toggle="tooltip" target="_blank" title="Facebook">
                                         <i class="fab fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li class="twitter">
-                                    <a href="https://twitter.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Twitter">
+                                    <a href="https://twitter.com/" data-bs-toggle="tooltip" target="_blank" title="Twitter">
                                         <i class="fab fa-twitter-square"></i>
                                     </a>
                                 </li>
                                 <li class="youtube">
-                                    <a href="https://www.youtube.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Youtube">
+                                    <a href="https://www.youtube.com/" data-bs-toggle="tooltip" target="_blank" title="Youtube">
                                         <i class="fab fa-youtube"></i>
                                     </a>
                                 </li>
                                 <li class="google-plus">
-                                    <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip"
-                                        target="_blank" title="Google Plus">
+                                    <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip" target="_blank" title="Google Plus">
                                         <i class="fab fa-google-plus"></i>
                                     </a>
                                 </li>
                                 <li class="instagram">
-                                    <a href="https://rss.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Instagram">
+                                    <a href="https://rss.com/" data-bs-toggle="tooltip" target="_blank" title="Instagram">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
@@ -351,32 +333,27 @@
                         <div class="kenne-social_link">
                             <ul>
                                 <li class="facebook">
-                                    <a href="https://www.facebook.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Facebook">
+                                    <a href="https://www.facebook.com/" data-bs-toggle="tooltip" target="_blank" title="Facebook">
                                         <i class="fab fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li class="twitter">
-                                    <a href="https://twitter.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Twitter">
+                                    <a href="https://twitter.com/" data-bs-toggle="tooltip" target="_blank" title="Twitter">
                                         <i class="fab fa-twitter-square"></i>
                                     </a>
                                 </li>
                                 <li class="youtube">
-                                    <a href="https://www.youtube.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Youtube">
+                                    <a href="https://www.youtube.com/" data-bs-toggle="tooltip" target="_blank" title="Youtube">
                                         <i class="fab fa-youtube"></i>
                                     </a>
                                 </li>
                                 <li class="google-plus">
-                                    <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip"
-                                        target="_blank" title="Google Plus">
+                                    <a href="https://www.plus.google.com/discover" data-bs-toggle="tooltip" target="_blank" title="Google Plus">
                                         <i class="fab fa-google-plus"></i>
                                     </a>
                                 </li>
                                 <li class="instagram">
-                                    <a href="https://rss.com/" data-bs-toggle="tooltip" target="_blank"
-                                        title="Instagram">
+                                    <a href="https://rss.com/" data-bs-toggle="tooltip" target="_blank" title="Instagram">
                                         <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
