@@ -1,6 +1,7 @@
 <?php
 
 require_once "Models/baidang.php";
+require_once "Models/khachhang.php";
 class BaiDangController
 {
 
@@ -48,9 +49,6 @@ class BaiDangController
     public function EditBaiViet()
     {
         $listusername = $this->use->getAllusername();
-        if (isset($_POST['sua'])) {
-        }
-
         if ($_GET["url"] == "sua-baiviet") {
             if (isset($_POST["id_bai_dang"])) {
                 $id = $_POST['id_bai_dang'];

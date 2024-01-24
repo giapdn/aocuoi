@@ -4,9 +4,13 @@ include "Views/box_left.php";
 require_once "Controllers/ProductController.php";
 require_once "Controllers/CategoryController.php";
 require_once "Controllers/BaiDangController.php";
+require_once "Controllers/LienHeController.php";
+
 $prodCtrllers = new ProductController();
 $categoryCtrll = new CategoryController();
 $baidangCtrll = new BaiDangController();
+$lienheCtrll = new LienHeController();
+
 $url = isset($_GET['url']) == true ? $_GET['url'] : '/';
 
 switch ($url) {
@@ -14,18 +18,18 @@ switch ($url) {
         include "Views/home.php";
         break;
         // Case sản phẩm ---
-    // case 'list-product':
-    //     $prodCtrllers->ListProduct();
-    //     break;
-    // case 'add-product':
-    //     $prodCtrllers->AddProduct();
-    //     break;
-    // case 'sua-san-pham':
-    //     $prodCtrllers->EditProduct();
-    //     break;
-    // case 'xoa-san-pham':
-    //     $prodCtrllers->RemoveProduct();
-    //     break;
+    case 'list-product':
+        $prodCtrllers->ListProduct();
+        break;
+    case 'add-product':
+        $prodCtrllers->AddProduct();
+        break;
+    case 'sua-product':
+        $prodCtrllers->EditProduct();
+        break;
+    case 'xoa-product':
+        $prodCtrllers->DeleteProduct();
+        break;
         // Case sản phẩm ---
 
         //case danh mục
@@ -57,6 +61,11 @@ switch ($url) {
         $baidangCtrll->EditBaiViet();
         break;
         //case bài viết
+    
+         //case liên hệ
+    case 'list-lienhe':
+        $lienheCtrll->AllLienHe();
+        break;
     default:
         include "Views/home.php";
         break;
