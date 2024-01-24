@@ -124,7 +124,7 @@
                     <div class="single-contact-block">
                         <h4><i class="fa fa-phone"></i> Điện thoại</h4>
                         <p>Di động: (08) 123 456 789</p>
-                        <p>Hotline: 1009 678 456</p>
+                        <p>Hotline: 099999</p>
                     </div>
                     <div class="single-contact-block last-child">
                         <h4><i class="fa fa-envelope-o"></i> Email</h4>
