@@ -118,16 +118,16 @@
                                 "asNavFor": ".sp-img_slider-nav"
                                 }'>
                                     <div class="single-slide red zoom">
-                                        <img src="client/assets/images/product/1-1.jpg" alt="Kenne's Product Image">
+                                        <img src="client/assets/images/product/vay1.jpeg" alt="Kenne's Product Image">
                                     </div>
                                     <div class="single-slide orange zoom">
-                                        <img src="client/assets/images/product/1-2.jpg" alt="Kenne's Product Image">
+                                        <img src="client/assets/images/product/vay2.jpeg" alt="Kenne's Product Image">
                                     </div>
                                     <div class="single-slide brown zoom">
-                                        <img src="client/assets/images/product/2-1.jpg" alt="Kenne's Product Image">
+                                        <img src="client/assets/images/product/vay1.jpeg" alt="Kenne's Product Image">
                                     </div>
                                     <div class="single-slide umber zoom">
-                                        <img src="client/assets/images/product/2-2.jpg" alt="Kenne's Product Image">
+                                        <img src="client/assets/images/product/vay2.jpeg" alt="Kenne's Product Image">
                                     </div>
                                     <div class="single-slide black zoom">
                                         <img src="client/assets/images/product/3-1.jpg" alt="Kenne's Product Image">
@@ -150,16 +150,16 @@
                                         {"breakpoint":575, "settings": {"slidesToShow": 2}}
                                     ]'>
                                     <div class="single-slide red">
-                                        <img src="client/assets/images/product/1-1.jpg" alt="Kenne's Product Thumnail">
+                                        <img src="client/assets/images/product/vay1.jpeg" alt="Kenne's Product Thumnail">
                                     </div>
                                     <div class="single-slide orange">
-                                        <img src="client/assets/images/product/1-2.jpg" alt="Kenne's Product Thumnail">
+                                        <img src="client/assets/images/product/vay2.jpeg" alt="Kenne's Product Thumnail">
                                     </div>
                                     <div class="single-slide brown">
-                                        <img src="client/assets/images/product/2-1.jpg" alt="Kenne's Product Thumnail">
+                                        <img src="client/assets/images/product/vay1.jpeg" alt="Kenne's Product Thumnail">
                                     </div>
                                     <div class="single-slide umber">
-                                        <img src="client/assets/images/product/2-2.jpg" alt="Kenne's Product Thumnail">
+                                        <img src="client/assets/images/product/vay2.jpeg" alt="Kenne's Product Thumnail">
                                     </div>
                                     <div class="single-slide red">
                                         <img src="client/assets/images/product/3-1.jpg" alt="Kenne's Product Thumnail">
