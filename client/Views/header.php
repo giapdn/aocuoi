@@ -78,7 +78,7 @@
                                         </li>
 
                                         <li>
-                                            <a href="login-register.html">Đăng nhập và đăng ký</a>
+                                            <a href="/aocuoi/client/Views/login-register/login.php">Đăng nhập và đăng ký</a>
                                         </li>
                                         <li>
                                             <a href="checkout.html">Đăng xuất</a>
@@ -172,9 +172,9 @@
                                             </li>
                                             <li><a href="index.php?url=productpage">Váy cưới đẹp<i class="ion-chevron-down"></i></a>
                                                 <ul class="kenne-dropdown">
-                                                    <li><a href="index.php?url=productpage">Váy cưới đi làm lễ</a></li>
-                                                    <li><a href="index.php?url=productpage">Váy cưới đi bàn</a></li>
-                                                    <li><a href="index.php?url=productpage">Áo dài cưới</a></li>
+                                                    <li><a href="index.php?url=aocuoilamle">Váy cưới đi làm lễ</a></li>
+                                                    <li><a href="index.php?url=aocuoidiban">Váy cưới đi bàn</a></li>
+                                                    <li><a href="index.php?url=aodaicuoi">Áo dài cưới</a></li>
                                                     <!-- <li><a href="index.php?url=page">Page</a></li> -->
                                                 </ul>
 

@@ -1,6 +1,6 @@
 <?php
 require_once "Models/Product.php";
-require_once "Models/DanhMuc.php";
+require_once "Models/Category.php";
 require_once 'Libs/PhpSpreadSheet/vendor/autoload.php';
 require_once "Libs/PhpSpreadSheet/Query.php";
 
@@ -17,8 +17,8 @@ class ProductController
 
     public function __construct()
     {
-        $this->product = new Product;
-        $this->danhmuc = new DanhMuc;
+        $this->product = new Product();
+        $this->danhmuc = new Category();
         $this->spreadsheet = new Spreadsheet();
         $this->query = new Query();
     }
@@ -39,7 +39,7 @@ class ProductController
     }
     public function AddProduct()
     {
-        $id_dm = $this->danhmuc->getDanhMuc();
+        $id_dm = $this->danhmuc->AllCategory();
         if (isset($_POST['them'])) {
             $ten_san_pham = $_POST['ten_san_pham'];
             $gia_san_pham = $_POST['gia_san_pham'];
@@ -60,7 +60,7 @@ class ProductController
     }
     public function EditProduct()
     {
-        $danhmuc = $this->danhmuc->getDanhMuc();
+        $danhmuc = $this->danhmuc->AllCategory();
         if ($_GET["url"] == "sua-product") {
             if (isset($_POST["id_san_pham"])) {
                 $id_san_pham = $_POST['id_san_pham'];
@@ -69,16 +69,37 @@ class ProductController
                 $img_path_default = $_FILES['img_path_default']['name'];
                 $target_dir = "uploads/";
                 $target_file = $target_dir . basename($_FILES["img_path_default"]["name"]);
-                move_uploaded_file($_FILES["img_path_default"]["tmp_name"], $target_file);
                 $mo_ta_san_pham = $_POST['mo_ta_san_pham'];
                 $ma_san_pham = $_POST['ma_san_pham'];
                 $id_danh_muc = $_POST['id_danh_muc'];
-                $check = $this->product->suaProduct($id_san_pham, $ten_san_pham, $gia_san_pham, $img_path_default, $mo_ta_san_pham, $ma_san_pham, $id_danh_muc);
-                if (!$check) {
-                    echo '<script>alert("sửa thành công")</script>';
-                    echo '<script>window.location.href="../admin/index.php?url=list-product"</script>';
-                }
-            } else {
+
+                    if (!empty($img_path_default )) {
+                        // Kiểm tra và tạo thư mục lưu trữ nếu chưa tồn tại
+                        if (!is_dir($target_dir)) {
+                            mkdir($target_dir, 0755, true);
+                        }
+                        // Kiểm tra hình ảnh có hợp lệ không
+                        $check = getimagesize($_FILES['img_path_default']['tmp_name']);
+                        if ($check !== false) {
+                            if (move_uploaded_file($_FILES['img_path_default']['tmp_name'], $target_file)) {
+                                $this->product-> suaProduct($id_san_pham,$ten_san_pham,$gia_san_pham,$img_path_default,$mo_ta_san_pham,$ma_san_pham,$id_danh_muc);
+                                echo '<script>alert("sửa thành công")</script>';
+                                echo '<script>window.location.href="../admin/index.php?url=list-product"</script>';            
+                            } else {
+                                die("OOP !");
+                            }
+                        } else {
+                            $this->product->suaProduct2($id_san_pham,$ten_san_pham,$gia_san_pham,$mo_ta_san_pham,$ma_san_pham,$id_danh_muc);
+                            echo '<script>alert("sửa thành công")</script>';
+                            echo '<script>window.location.href="../admin/index.php?url=list-product"</script>';            
+                        }
+                    } else {
+                        $this->product->suaProduct2($id_san_pham,$ten_san_pham,$gia_san_pham,$mo_ta_san_pham,$ma_san_pham,$id_danh_muc);
+                        echo '<script>alert("sửa thành công")</script>';
+                        echo '<script>window.location.href="../admin/index.php?url=list-product"</script>';            
+                    }
+            }else{
+
                 $id_san_pham = $_GET['id'];
                 $hienThiSanPham = $this->product->hienthi($id_san_pham);
                 require_once "Views/Product/edit.php";
