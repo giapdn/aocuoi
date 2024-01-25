@@ -1,6 +1,6 @@
 <?php
 require_once "Models/Product.php";
-require_once "Models/DanhMuc.php";
+require_once "Models/Category.php";
 require_once 'Libs/PhpSpreadSheet/vendor/autoload.php';
 require_once "Libs/PhpSpreadSheet/Query.php";
 
@@ -17,8 +17,8 @@ class ProductController
 
     public function __construct()
     {
-        $this->product = new Product;
-        $this->danhmuc = new DanhMuc;
+        $this->product = new Product();
+        $this->danhmuc = new Category();
         $this->spreadsheet = new Spreadsheet();
         $this->query = new Query();
     }
@@ -39,7 +39,7 @@ class ProductController
     }
     public function AddProduct()
     {
-        $id_dm = $this->danhmuc->getDanhMuc();
+        $id_dm = $this->danhmuc->AllCategory();
         if (isset($_POST['them'])) {
             $ten_san_pham = $_POST['ten_san_pham'];
             $gia_san_pham = $_POST['gia_san_pham'];
@@ -60,7 +60,7 @@ class ProductController
     }
     public function EditProduct()
     {
-        $danhmuc = $this->danhmuc->getDanhMuc();
+        $danhmuc = $this->danhmuc->AllCategory();
         if ($_GET["url"] == "sua-product") {
             if (isset($_POST["id_san_pham"])) {
                 $id_san_pham = $_POST['id_san_pham'];
