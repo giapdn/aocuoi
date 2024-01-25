@@ -30,6 +30,12 @@ switch ($url) {
     case 'xoa-product':
         $prodCtrllers->DeleteProduct();
         break;
+    case 'sort-delete-product':
+        $prodCtrllers->SortDeleteProduct();
+        break;
+    case 'search-product':
+        $prodCtrllers->SearchProduct();
+        break;
         // Case sản phẩm ---
 
         //case danh mục
@@ -44,6 +50,9 @@ switch ($url) {
         break;
     case 'xoa-category':
         $categoryCtrll->deleteCategory();
+        break;
+    case 'xoasort-category':
+        $categoryCtrll->deleteSortCategory();
         break;
         //case danh mục
 
@@ -60,9 +69,12 @@ switch ($url) {
     case 'sua-baiviet':
         $baidangCtrll->EditBaiViet();
         break;
+    case 'search-baiviet':
+        $baidangCtrll->SearchBaiViet();
+        break;
         //case bài viết
-    
-         //case liên hệ
+
+        //case liên hệ
     case 'list-lienhe':
         $lienheCtrll->AllLienHe();
         break;

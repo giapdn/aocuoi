@@ -5,7 +5,7 @@ class Category extends BaseModel
 {
     //danh mục
     public function AllCategory(){
-        $sql = "SELECT * FROM `tb_danhmuc`";
+        $sql = "SELECT * FROM `tb_danhmuc` where status = 1";
         return $this->SqlExecute($sql);
     }
     public function themCategory($mo_ta,$path){
@@ -25,6 +25,9 @@ class Category extends BaseModel
         $sql = "DELETE FROM tb_danhmuc WHERE id_danh_muc= $id";
         return $this->SqlExecute($sql);
     }
-
+    public function xoaSortCategory($id){
+        $sql = "UPDATE tb_danhmuc SET `status` = 0 where id_danh_muc = $id ";
+        return $this->SqlExecute($sql);
+    }
     
 }

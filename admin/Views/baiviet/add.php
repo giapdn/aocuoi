@@ -33,7 +33,10 @@
                     </div>
                     <div class="form-group">
                         <label>Trạng thái</label>
-                        <input type="text" name="trangthai" class="custom-file-input" readonly value="<?= $hien_baidang ?>">
+                        <select  class="form-select" name="trangthai" id="">
+                            <option value="1">Hiện thị bài viết</option>
+                            <option value="2">Ẩn bài viết</option>
+                        </select>
                     </div>
                     <br>
                     <div class="form-group">

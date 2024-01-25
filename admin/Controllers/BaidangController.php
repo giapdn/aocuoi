@@ -24,12 +24,14 @@ class BaiDangController
         if (isset($_POST['them'])) {
             $tieu_de = $_POST['tieu_de'];
             $noi_dung = $_POST['noi_dung'];
+            $trangthai = $_POST['trangthai'];
             $path = $_FILES['path']['name'];
             $target_dir = "uploads/";
             $target_file = $target_dir . basename($_FILES["path"]["name"]);
             move_uploaded_file($_FILES["path"]["tmp_name"], $target_file);
             $username = $_POST['username'];
-            $check = $this->baidang->thembaiviet($tieu_de, $noi_dung, $path, $username);
+            var_dump($tieu_de, $noi_dung, $path, $username,$trangthai);
+            $check = $this->baidang->thembaiviet($tieu_de, $noi_dung, $path, $username,$trangthai);
             if (!$check) {
                 echo '<script>alert("them thành công")</script>';
                 echo '<script>window.location.href="../admin/index.php?url=list-baiviet"</script>';
@@ -71,17 +73,18 @@ class BaiDangController
             }
         }
     }
-    // public function search(){
-    //     if (isset($_POST['btn'])) {
-    //         $tieu_de = isset($_POST['noidung']) ? $_POST['noidung'] : '';
-    //         $ketqua =$this->baidang-> timkiem($tieu_de);
-    //         if ($ketqua) {
-    //             foreach ($ketqua as $baidang) {
-    //                 echo $baidang['tieu_de'] . '<br>';
-    //             }
-    //         } else {
-    //             echo 'Không tìm thấy kết quả nào.';
-    //         }
-    //     }
-    // }
+    public function SearchBaiViet()
+    {
+        if (isset($_POST["timkiem"])) {
+            $noidung= $_POST['noidung'];
+            $baidang = $this->baidang->timBaiViet($noidung);
+            include_once "Views/baiviet/list.php";
+        }
+        else{
+            $noidung = '';
+            $baidang = $this->baidang->AllBaidang();
+            include_once "Views/baiviet/list.php";
+        }
+    }
+   
 }

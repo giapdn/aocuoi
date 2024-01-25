@@ -54,6 +54,16 @@ class CategoryController
             $id = $_GET['id'];
             $this->category->xoaCategory($id);
             echo '<script>alert("Xóa thành công")</script>';
+            // echo '<script>window.location.href="../admin/index.php?url=list-category"</script>';
+        }
+    }
+
+    public function deleteSortCategory()
+    {
+        if (isset($_GET['id']) && $_GET['id']) {
+            $id = $_GET['id'];
+            $this->category->xoaSortCategory($id);
+            echo '<script>alert("Ẩn thành công")</script>';
             echo '<script>window.location.href="../admin/index.php?url=list-category"</script>';
         }
     }
