@@ -1,6 +1,8 @@
 <?php
 include "client/Views/header.php";
 
+require_once "./client/controllers/lienHeController.php";
+$lienheCtrll = new lienHeController();
 $url = isset($_GET['url']) == true ? $_GET['url'] : '/';
 
 switch ($url) {
@@ -37,7 +39,8 @@ switch ($url) {
         break;
 
     case 'contactus':
-        include "client/Views/ContactUs/contactus.php";
+        $lienheCtrll->insertLienHe();
+        
         break;
 
     case 'aboutus':

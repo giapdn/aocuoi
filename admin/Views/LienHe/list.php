@@ -9,37 +9,42 @@
                     <thead>
                         <tr>
                             <th>Id</th>
-                            <th>Nội dung</th>
-                            <th>username</th>
+                            <th>Tên khách hàng</th>
                             <th>Email</th>
                             <th>Sdt</th>
-                            <th>Tên khách hàng</th>
-                            <th>Mã sản phẩm</th>
-                            <th>Loại dịch vụ</th>
+                            <th>Nội dung</th>
                             <th>Trạng thái</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach($lienhe as $key => $lh):?>
+                        <?php foreach($lienhe as $key => $lh):
+                            $lienHe = "?url=lh&id_lienhe=".$lh['id_lienhe'];
+                            ?>
+                            
                         <tr>
                             <td><?= $lh['id_lienhe']?></td>
+                            
+                            <td><?= $lh['ten_khach_hang']?></td>
+                            <td><?= $lh['email']?></td>
+                            <td><?= $lh['dien_thoai']?></td>
                             <td>
                                 <textarea readonly name="" id="" cols="25" rows="2"><?= $lh['noi_dung']?></textarea> 
                             </td>
-                            <td><?= $lh['username']?></td>
-                            <td><?= $lh['email']?></td>
-                            <td><?= $lh['dien_thoai']?></td>
-                            <td><?= $lh['ten_khach_hang']?></td>
-                            <td><?= $lh['id_san_pham']?></td>
-                            <td><?= $lh['loai_dich_vu']?></td>
                             <td>
-                                <select name="" id="">
-                                    <option value="">
-                                        <?= $lh['trang_thai']?>
-                                    </option>
-                                </select>
-                            </td>
-                            <?php endforeach ?>
+                                <?= $lh['trang_thai']?>
+                                <!-- <?php 
+                        
+                            if ($lh['trang_thai'] == 'Chưa Liên Hệ' && $lh['trang_thai'] != 'Đã Liên Hệ' && $lh['trang_thai'] != 'Đã Liên Hệ Lần 1' && $lh['trang_thai'] != 'Đã Liên Hệ Lần 2') {?>
+                                <input name="daLienHe"   type="submit" value="Đã Liên Hệ" style="height: 30px;min-width: 120px;background-color: cadetblue;border: 0;">
+                                <input name="daLienHeL1" type="submit" value="Đã Liên Hệ Lần 1" style="height: 30px;min-width: 120px;background-color: chocolate;border: 0;margin-top: 8px;">
+                                <input name="daLienHeL2" type="submit" value="Đã Liên Hệ Lần 2" style="height: 30px;min-width: 120px;background-color: chocolate;border: 0;margin-top: 8px;">
+                            <?php }
+                                else if ($lh['trang_thai'] == 'Đã Liên Hệ') {?>
+                                <button name=""   type="submit" value="" style="height: 30px;min-width: 120px;background-color: darkgreen;border: 0;margin-top: 8px; color: white;">Check_In</button>
+                            <?php }?>  
+                            </td> -->
+                            
+                            <?php endforeach ?> 
                         </tr>
                         
                     </tbody>

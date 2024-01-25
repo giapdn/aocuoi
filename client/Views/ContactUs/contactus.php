@@ -135,28 +135,40 @@
             </div>
             <div class="col-lg-6 col-md-12 order-2 order-lg-1">
                 <div class="contact-form-content">
-                    <h3 class="contact-page-title">Hãy cho chúng tôi biết tin nhắn của bạn</h3>
+                    <h3 class="contact-page-title">Tell Us Your Message</h3>
+                    <!-- Phần thống báo lỗi -->
+                    <!-- <?php
+                        if(isset($_SESSION['error_mess'])){
+                            $error_message =  $_SESSION['error_mess'];
+                            foreach($error_message as $message){
+                                foreach($message as $mess){
+                                    echo '<div class="alert alert-danger">'.$mess.'</div>';
+                                }
+                            }
+                        }
+                        //Sau khi thông báo lỗi thực hiện xóa session
+                        unset($_SESSION['error_mess']);
+                    ?> -->
                     <div class="contact-form">
-                        <form id="contact-form" action="https://whizthemes.com/mail-php/mamunur/kenne/kenne.php">
+                        <form id="" action="?url=contactus" method="post">
                             <div class="form-group">
-                                <label>Tên của bạn <span class="required">*</span></label>
-                                <input type="text" name="con_name" id="con_name" required>
+                                <label>Your Name <span class="required">*</span></label>
+                                <input type="text" name="ten_khach_hang" id="ten_khach_hang">
                             </div>
                             <div class="form-group">
-                                <label>Email của bạn <span class="required">*</span></label>
-                                <input type="email" name="con_email" id="con_email" required>
+                                <label>Your Email <span class="required">*</span></label>
+                                <input type="email" name="email" id="email">
                             </div>
                             <div class="form-group">
-                                <label>Chủ thể</label>
-                                <input type="text" name="con_subject" id="con_subject">
+                                <label>Phone Number<span class="required">*</span></label>
+                                <input type="text" name="dien_thoai" id="dien_thoai">
                             </div>
                             <div class="form-group form-group-2">
-                                <label>Tin nhắn của bạn</label>
-                                <textarea name="con_message" id="con_message"></textarea>
+                                <label>Your Message<span class="required">*</span></label>
+                                <textarea name="noi_dung" id="noi_dung"></textarea>
                             </div>
                             <div class="form-group">
-                                <button type="submit" value="submit" id="submit" class="kenne-contact-form_btn"
-                                    name="submit">Gửi</button>
+                                <input type="submit" value="Send" class="kenne-contact-form_btn" name="submit">
                             </div>
                         </form>
                     </div>
