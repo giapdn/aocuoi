@@ -5139,9 +5139,14 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
   background-image: url("../images/slider/1-2.jpg");
 }
 
+
+
+
+
 .bg-3,
 .bg-4 {
-  background-image: url("../images/slider/slide8.webp");
+
+  background-image: url("../images/slider/banner9.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5163,7 +5168,8 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .bg-4 {
-  background-image: url("../images/slider/slide7.webp");
+  background-image: url("../images/slider/banner10.jpg");
+ 
 }
 
 .bg-5,
@@ -5480,7 +5486,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .banner-area-5 .banner-item .banner-img {
-  background-image: url("../images/banner/2-6.jpg");
+  background-image: url("../images/banner/2-1651x547.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -9007,6 +9013,8 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 /*  39 - Pages - Login | Register
 /*----------------------------------------*/
 .kenne-login-register_area {
+  width: 100%;
+  background-image: url("./assets/images/banner/login.jpg");
   padding: 100px 0;
 }
 
