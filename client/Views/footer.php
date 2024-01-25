@@ -10,7 +10,7 @@
                                   <img src="client/assets/images/footer/logo/1.png" alt="Logo">
                               </a>
                           </div>
-                          <p class="short-desc">Subscribe to our newsleter, Enter your emil address</p>
+                          <p class="short-desc">Đăng ký nhận bản tin của tôi, nhập email của bạn </p>
                           <div class="newsletter-form_wrap">
                               <form
                                   action="https://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef"
@@ -19,7 +19,7 @@
                                   <div id="mc_embed_signup_scroll">
                                       <div id="mc-form" class="mc-form subscribe-form">
                                           <input id="mc-email" class="newsletter-input" type="email" autocomplete="off"
-                                              placeholder="Enter email address" />
+                                              placeholder="Nhập địa chỉ email" />
                                           <button class="newsletter-btn" id="mc-submit"><i
                                                   class="ion-android-mail"></i></button>
                                       </div>
@@ -32,40 +32,40 @@
                       <div class="row footer-widgets_wrap">
                           <div class="col-lg-4 col-md-4 col-sm-4">
                               <div class="footer-widgets_title">
-                                  <h4>Shopping</h4>
+                                  <h4>Mua sắm </h4>
                               </div>
                               <div class="footer-widgets">
                                   <ul>
-                                      <li><a href="javascript:void(0)">Product</a></li>
-                                      <li><a href="javascript:void(0)">My Cart</a></li>
-                                      <li><a href="javascript:void(0)">Wishlist</a></li>
-                                      <li><a href="javascript:void(0)">Cart</a></li>
+                                      <li><a href="javascript:void(0)">Sản phẩm</a></li>
+                                      <li><a href="javascript:void(0)">Giỏ hàng của tôi</a></li>
+                                      <li><a href="javascript:void(0)">Danh sách yêu thích</a></li>
+                                      <li><a href="javascript:void(0)">Giỏ hàng</a></li>
                                   </ul>
                               </div>
                           </div>
                           <div class="col-lg-4 col-md-4 col-sm-4">
                               <div class="footer-widgets_title">
-                                  <h4>Account</h4>
+                                  <h4>Tài khoản</h4>
                               </div>
                               <div class="footer-widgets">
                                   <ul>
-                                      <li><a href="javascript:void(0)">Login</a></li>
-                                      <li><a href="javascript:void(0)">Register</a></li>
-                                      <li><a href="javascript:void(0)">Help</a></li>
-                                      <li><a href="javascript:void(0)">Support</a></li>
+                                      <li><a href="javascript:void(0)">Đăng nhập</a></li>
+                                      <li><a href="javascript:void(0)">Đăng ký</a></li>
+                                      <li><a href="javascript:void(0)">Trợ giúp</a></li>
+                                      <li><a href="javascript:void(0)">Ủng hộ</a></li>
                                   </ul>
                               </div>
                           </div>
                           <div class="col-lg-4 col-md-4 col-sm-4">
                               <div class="footer-widgets_title">
-                                  <h4>Categories</h4>
+                                  <h4>Thể loại </h4>
                               </div>
                               <div class="footer-widgets">
                                   <ul>
-                                      <li><a href="javascript:void(0)">Men</a></li>
-                                      <li><a href="javascript:void(0)">Women</a></li>
-                                      <li><a href="javascript:void(0)">Jeans</a></li>
-                                      <li><a href="javascript:void(0)">Shoes</a></li>
+                                      <li><a href="javascript:void(0)">Đàn ông </a></li>
+                                      <li><a href="javascript:void(0)">Phụ nữ </a></li>
+                                      <li><a href="javascript:void(0)">Quần Jeans</a></li>
+                                      <li><a href="javascript:void(0)">Quần Shoes</a></li>
                                   </ul>
                               </div>
                           </div>
