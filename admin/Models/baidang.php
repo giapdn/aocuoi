@@ -23,10 +23,10 @@ class BaiDang extends BaseModel{
         $sql = "UPDATE tb_baidang SET tieu_de='$tieu_de',noi_dung='$noi_dung',path='$path',username='$username' WHERE id_bai_dang= $id";
         return $this->SqlExecute($sql, 1);
     }
-    // public function timkiem($tieu_de){
-    //     $sql = "SELECT * FROM tb_baidang WHERE tieu_de LIKE '%$tieu_de%'";
-    //     return $this->SqlExecute($sql, 1);
-    // }
+    public function suaBaiViet2($id,$tieu_de,$noi_dung,$username){
+        $sql = "UPDATE tb_baidang SET tieu_de='$tieu_de',noi_dung='$noi_dung',username='$username' WHERE id_bai_dang= $id";
+        return $this->SqlExecute($sql, 1);
+    }
 
 }
 

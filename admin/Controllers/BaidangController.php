@@ -67,10 +67,29 @@ class BaiDangController
                 $path = $_FILES['path']['name'];
                 $target_dir = "uploads/";
                 $target_file = $target_dir . basename($_FILES["path"]["name"]);
-                move_uploaded_file($_FILES["path"]["tmp_name"], $target_file);
                 $username = $_POST['username'];
-                $check = $this->baidang->suaBaiViet($id, $tieu_de, $noi_dung, $path, $username);
-                if (!$check) {
+                if (!empty($path)) {
+                    // Kiểm tra và tạo thư mục lưu trữ nếu chưa tồn tại
+                    if (!is_dir($target_dir)) {
+                        mkdir($target_dir, 0755, true);
+                    }
+                    // Kiểm tra hình ảnh có hợp lệ không
+                    $check = getimagesize($_FILES['path']['tmp_name']);
+                    if ($check !== false) {
+                        if (move_uploaded_file($_FILES['path']['tmp_name'], $target_file)) {
+                            $this->baidang->suaBaiViet($id, $tieu_de, $noi_dung, $path, $username);
+                            echo '<script>alert("sửa thành công")</script>';
+                            echo '<script>window.location.href="../admin/index.php?url=list-baiviet"</script>';
+                        } else {
+                            die("OOP !");
+                        }
+                    } else {
+                        $this->baidang->suaBaiViet2($id,$tieu_de,$noi_dung,$username);
+                        echo '<script>alert("sửa thành công")</script>';
+                        echo '<script>window.location.href="../admin/index.php?url=list-baiviet"</script>';
+                    }
+                } else {
+                    $this->baidang->suaBaiViet2($id,$tieu_de,$noi_dung,$username);
                     echo '<script>alert("sửa thành công")</script>';
                     echo '<script>window.location.href="../admin/index.php?url=list-baiviet"</script>';
                 }
