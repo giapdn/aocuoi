@@ -230,6 +230,7 @@ button,
   top: 50%;
   -webkit-animation: loader 2s infinite ease;
           animation: loader 2s infinite ease;
+          
 }
 
 .loading .middle .loader-inner {
@@ -5138,9 +5139,14 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
   background-image: url("../images/slider/1-2.jpg");
 }
 
+
+
+
+
 .bg-3,
 .bg-4 {
-  background-image: url("../images/slider/slide8.webp");
+
+  background-image: url("../images/slider/banner9.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5162,7 +5168,8 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .bg-4 {
-  background-image: url("../images/slider/slide7.webp");
+  background-image: url("../images/slider/banner10.jpg");
+ 
 }
 
 .bg-5,
@@ -5479,7 +5486,7 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .banner-area-5 .banner-item .banner-img {
-  background-image: url("../images/banner/2-6.jpg");
+  background-image: url("../images/banner/2-1651x547.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -5491,6 +5498,32 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
     background-position: left;
   }
 }
+
+.banner-img h1 {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black; /* Màu chữ của thẻ h1 */
+  text-align: center; /* Căn giữa nội dung của thẻ h1 */
+  z-index: 1; /* Để thẻ h1 trên cùng */
+  white-space: nowrap; /* Ngăn chữ bị xuống dòng */
+  font-family: "Times New Roman", Times, serif; /* Chọn font-family trang trọng */
+  font-weight: 300; /* Độ mảnh của font */
+  text-transform: uppercase; /* Chuyển đổi toàn bộ chữ thành in hoa */
+ border: 2px solid black;
+ padding: 5px;
+ font-size: 23px;
+}
+
+
+.banner-img img {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 70px; /* Adjust the value for desired roundness */
+  border-bottom-right-radius: 70px; /* Adjust the value for desired roundness */
+}
+
 
 .banner-area-5 .banner-item .banner-content {
   text-align: center;
@@ -6770,7 +6803,12 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 }
 
 .header-middle_area .header-middle_nav .header-search_area form.search-form {
+ 
   position: relative;
+}
+
+.search-form input[type="text"] {
+  width: 150px; /* Đặt width theo ý muốn của bạn */
 }
 
 .header-middle_area .header-middle_nav .header-search_area form.search-form input {
@@ -8975,6 +9013,8 @@ i, .tab-content .tab-pane.active, .scroll-to-top i, .quantity .cart-plus-minus >
 /*  39 - Pages - Login | Register
 /*----------------------------------------*/
 .kenne-login-register_area {
+  width: 100%;
+  background-image: url("./assets/images/banner/login.jpg");
   padding: 100px 0;
 }
 
