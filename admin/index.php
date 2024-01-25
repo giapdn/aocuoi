@@ -79,6 +79,9 @@ switch ($url) {
     case 'list-lienhe':
         $lienheCtrll->AllLienHe();
         break;
+    case 'lh':
+        $lienheCtrll->editLH();
+        break;
     default:
         include "Views/dashboard.php";
         break;
