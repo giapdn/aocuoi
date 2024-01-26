@@ -12,32 +12,32 @@
     <meta name="description" content="Kenne is a stunning html template for an expansion eCommerce site that suitable for any kind of fashion store. It will make your online store look more impressive and attractive to viewers. ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="client/assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.png">
 
     <!-- CSS
 	============================================ -->
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="client/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="client/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
     <!-- Fontawesome Star -->
-    <link rel="stylesheet" href="client/assets/css/fontawesome-stars.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-stars.min.css">
     <!-- Ion Icon -->
-    <link rel="stylesheet" href="client/assets/css/ion-fonts.css">
+    <link rel="stylesheet" href="./assets/css/ion-fonts.css">
     <!-- Slick CSS -->
-    <link rel="stylesheet" href="client/assets/css/slick.css">
+    <link rel="stylesheet" href="./assets/css/slick.css">
     <!-- Animation -->
-    <link rel="stylesheet" href="client/assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
     <!-- jQuery Ui -->
-    <link rel="stylesheet" href="client/assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.min.css">
     <!-- Nice Select -->
-    <link rel="stylesheet" href="client/assets/css/nice-select.css">
+    <link rel="stylesheet" href="./assets/css/nice-select.css">
     <!-- Timecircles -->
-    <link rel="stylesheet" href="client/assets/css/timecircles.css">
+    <link rel="stylesheet" href="./assets/css/timecircles.css">
 
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="client/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
@@ -73,8 +73,8 @@
                                         </li>
                                         <li><a href="javascript:void(0)">Language <i class="ion-chevron-down"></i></a>
                                             <ul class="ht-dropdown">
-                                                <li class="active"><a href="javascript:void(0)"><img src="client/assets/images/menu/icon/1.jpg" alt="Kenne Language Icon">English</a></li>
-                                                <li><a href="javascript:void(0)"><img src="client/assets/images/menu/icon/2.jpg" alt="Kenne Language Icon">Français</a>
+                                                <li class="active"><a href="javascript:void(0)"><img src="./assets/images/menu/icon/1.jpg" alt="Kenne Language Icon">English</a></li>
+                                                <li><a href="javascript:void(0)"><img src="./assets/images/menu/icon/2.jpg" alt="Kenne Language Icon">Français</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -110,7 +110,7 @@
                             <div class="header-middle_nav">
                                 <div class="header-logo_area">
                                     <a href="index.html">
-                                        <img src="client/assets/images/menu/logo/1.png" alt="Header Logo">
+                                        <img src="./assets/images/menu/logo/1.png" alt="Header Logo">
                                     </a>
                                 </div>
                                 <div class="header-contact d-none d-md-flex">
@@ -294,7 +294,7 @@
                                     <div class="col-lg-2 col-sm-6">
                                         <div class="header-logo_area">
                                             <a href="index.html">
-                                                <img src="client/assets/images/menu/logo/1.png" alt="Header Logo">
+                                                <img src="./assets/images/menu/logo/1.png" alt="Header Logo">
                                             </a>
                                         </div>
                                     </div>
@@ -460,7 +460,7 @@
                                 <a class="product-item_remove" href="javascript:void(0)"><i
                                     class="ion-android-close"></i></a>
                                 <div class="product-item_img">
-                                    <img src="client/assets/images/product/1-1.jpg" alt="Kenne's Product Image">
+                                    <img src="./assets/images/product/1-1.jpg" alt="Kenne's Product Image">
                                 </div>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="shop-left-sidebar.html">Autem ipsa ad</a>
@@ -471,7 +471,7 @@
                                 <a class="product-item_remove" href="javascript:void(0)"><i
                                     class="ion-android-close"></i></a>
                                 <div class="product-item_img">
-                                    <img src="client/assets/images/product/2-1.jpg" alt="Kenne's Product Image">
+                                    <img src="./assets/images/product/2-1.jpg" alt="Kenne's Product Image">
                                 </div>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="shop-left-sidebar.html">Tenetur illum
@@ -483,7 +483,7 @@
                                 <a class="product-item_remove" href="javascript:void(0)"><i
                                     class="ion-android-close"></i></a>
                                 <div class="product-item_img">
-                                    <img src="client/assets/images/product/3-1.jpg" alt="Kenne's Product Image">
+                                    <img src="./assets/images/product/3-1.jpg" alt="Kenne's Product Image">
                                 </div>
                                 <div class="product-item_content">
                                     <a class="product-item_title" href="shop-left-sidebar.html">Non doloremque
@@ -511,7 +511,7 @@
                         <a href="#" class="btn-close white-close_btn"><i class="ion-android-close"></i></a>
                         <div class="offcanvas-inner_logo">
                             <a href="index.html">
-                                <img src="client/assets/images/menu/logo/1.png" alt="Header Logo">
+                                <img src="./assets/images/menu/logo/1.png" alt="Header Logo">
                             </a>
                         </div>
                         <nav class="offcanvas-navigation">
@@ -814,7 +814,7 @@
                     <a href="#" class="btn-close"><i class="ion-android-close"></i></a>
                     <div class="offcanvas-inner_logo">
                         <a href="shop-left-sidebar.html">
-                            <img src="client/assets/images/menu/logo/1.png" alt="Munoz's Offcanvas Logo">
+                            <img src="./assets/images/menu/logo/1.png" alt="Munoz's Offcanvas Logo">
                         </a>
                     </div>
                     <div class="short-desc">
@@ -902,17 +902,17 @@
         <div class="breadcrumb-area">
             <div class="container">
                 <div class="breadcrumb-content">
-                    <h2>Shop Related</h2>
+                    <h2>Đăng nhập</h2>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active">Login Or Register</li>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li class="active">Đăng ký và đăng nhập</li>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- Kenne's Breadcrumb Area End Here -->
         <!-- Begin Kenne's Login Register Area -->
-        <div class="kenne-login-register_area">
+        <div class="kenne-login-register_area" style="  width: 100%;">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6">
@@ -980,42 +980,42 @@
 
                                 <div class="brand-item">
                                     <a href="javascript:void(0)">
-                                        <img src="client/assets/images/brand/1.png" alt="Brand Images">
+                                        <img src="./assets/images/brand/1.png" alt="Brand Images">
                                     </a>
                                 </div>
                                 <div class="brand-item">
                                     <a href="javascript:void(0)">
-                                        <img src="client/assets/images/brand/2.png" alt="Brand Images">
+                                        <img src="./assets/images/brand/2.png" alt="Brand Images">
                                     </a>
                                 </div>
                                 <div class="brand-item">
                                     <a href="javascript:void(0)">
-                                        <img src="client/assets/images/brand/3.png" alt="Brand Images">
+                                        <img src="./assets/images/brand/3.png" alt="Brand Images">
                                     </a>
                                 </div>
                                 <div class="brand-item">
                                     <a href="javascript:void(0)">
-                                        <img src="client/assets/images/brand/4.png" alt="Brand Images">
+                                        <img src="./assets/images/brand/4.png" alt="Brand Images">
                                     </a>
                                 </div>
                                 <div class="brand-item">
                                     <a href="javascript:void(0)">
-                                        <img src="client/assets/images/brand/5.png" alt="Brand Images">
+                                        <img src="./assets/images/brand/5.png" alt="Brand Images">
                                     </a>
                                 </div>
                                 <div class="brand-item">
                                     <a href="javascript:void(0)">
-                                        <img src="client/assets/images/brand/6.png" alt="Brand Images">
+                                        <img src="./assets/images/brand/6.png" alt="Brand Images">
                                     </a>
                                 </div>
                                 <div class="brand-item">
                                     <a href="javascript:void(0)">
-                                        <img src="client/assets/images/brand/1.png" alt="Brand Images">
+                                        <img src="./assets/images/brand/1.png" alt="Brand Images">
                                     </a>
                                 </div>
                                 <div class="brand-item">
                                     <a href="javascript:void(0)">
-                                        <img src="client/assets/images/brand/2.png" alt="Brand Images">
+                                        <img src="./assets/images/brand/2.png" alt="Brand Images">
                                     </a>
                                 </div>
 
@@ -1036,7 +1036,7 @@
                             <div class="newsletter-area">
                                 <div class="newsletter-logo">
                                     <a href="javascript:void(0)">
-                                        <img src="client/assets/images/footer/logo/1.png" alt="Logo">
+                                        <img src="./assets/images/footer/logo/1.png" alt="Logo">
                                     </a>
                                 </div>
                                 <p class="short-desc">Subscribe to our newsleter, Enter your emil address</p>
@@ -1109,7 +1109,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="payment">
-                                <img src="client/assets/images/footer/payment/1.png" alt="Kenne's Payment Method">
+                                <img src="./assets/images/footer/payment/1.png" alt="Kenne's Payment Method">
                             </div>
                         </div>
                     </div>
@@ -1127,37 +1127,37 @@
 ============================================ -->
 
     <!-- jQuery JS -->
-    <script src="client/assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="client/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="./assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
     <!-- Modernizer JS -->
-    <script src="client/assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="./assets/js/vendor/modernizr-3.11.2.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="client/assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/vendor/bootstrap.bundle.min.js"></script>
 
     <!-- Slick Slider JS -->
-    <script src="client/assets/js/plugins/slick.min.js"></script>
+    <script src="./assets/js/plugins/slick.min.js"></script>
     <!-- Barrating JS -->
-    <script src="client/assets/js/plugins/jquery.barrating.min.js"></script>
+    <script src="./assets/js/plugins/jquery.barrating.min.js"></script>
     <!-- Counterup JS -->
-    <script src="client/assets/js/plugins/jquery.counterup.js"></script>
+    <script src="./assets/js/plugins/jquery.counterup.js"></script>
     <!-- Nice Select JS -->
-    <script src="client/assets/js/plugins/jquery.nice-select.js"></script>
+    <script src="./assets/js/plugins/jquery.nice-select.js"></script>
     <!-- Sticky Sidebar JS -->
-    <script src="client/assets/js/plugins/jquery.sticky-sidebar.js"></script>
+    <script src="./assets/js/plugins/jquery.sticky-sidebar.js"></script>
     <!-- Jquery-ui JS -->
-    <script src="client/assets/js/plugins/jquery-ui.min.js"></script>
-    <script src="client/assets/js/plugins/jquery.ui.touch-punch.min.js"></script>
+    <script src="./assets/js/plugins/jquery-ui.min.js"></script>
+    <script src="./assets/js/plugins/jquery.ui.touch-punch.min.js"></script>
     <!-- Theia Sticky Sidebar JS -->
-    <script src="client/assets/js/plugins/theia-sticky-sidebar.min.js"></script>
+    <script src="./assets/js/plugins/theia-sticky-sidebar.min.js"></script>
     <!-- Waypoints JS -->
-    <script src="client/assets/js/plugins/waypoints.min.js"></script>
+    <script src="./assets/js/plugins/waypoints.min.js"></script>
     <!-- jQuery Zoom JS -->
-    <script src="client/assets/js/plugins/jquery.zoom.min.js"></script>
+    <script src="./assets/js/plugins/jquery.zoom.min.js"></script>
     <!-- Timecircles JS -->
-    <script src="client/assets/js/plugins/timecircles.js"></script>
+    <script src="./assets/js/plugins/timecircles.js"></script>
 
     <!-- Main JS -->
-    <script src="client/assets/js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
 
 </body>
 

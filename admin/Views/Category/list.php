@@ -1,5 +1,3 @@
- <!-- Content -->
-
  <div class="container-xxl flex-grow-1 container-p-y">
      <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Danh mục /</span> Danh sách danh mục</h4>
      <a href="?url=add-category"><input class="btn btn-primary" type="submit" name="them" value="Thêm"> </a>
@@ -43,9 +41,7 @@
 
                      </tbody>
                  </table>
-
              </div>
          </div>
      </div>
  </div>
- <!-- / Content -->

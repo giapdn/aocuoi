@@ -91,10 +91,10 @@
 <div class="breadcrumb-area">
     <div class="container">
         <div class="breadcrumb-content">
-            <h2>Other</h2>
+            <h2>Liên hệ</h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="active">Contact</li>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li class="active">Liên hệ</li>
             </ul>
         </div>
     </div>
@@ -103,24 +103,28 @@
 <!-- Begin Contact Main Page Area -->
 <div class="contact-main-page">
     <div class="container">
-        <div id="google-map"></div>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.646172970589!2d105.75938951476276!3d21.03807479233165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab1d4c91d0e3%3A0x9d5e71e1280c98cb!2sFPT%20Polytechnic!5e0!3m2!1sen!2s!4v1641716708537!5m2!1sen!2s"
+            height="500" width="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
     </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-5 offset-lg-1 col-md-12 order-1 order-lg-2">
                 <div class="contact-page-side-content">
-                    <h3 class="contact-page-title">Contact Us</h3>
-                    <p class="contact-page-message">Claritas est etiam processus dynamicus, qui sequitur
-                        mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum
-                        claram anteposuerit litterarum formas human.</p>
+                    <h3 class="contact-page-title">Liên hệ chúng tôi</h3>
+                    <p class="contact-page-message">Sự rõ ràng cũng là một quá trình năng động tuân theo những thói quen
+                        luôn thay đổi của người đọc. Thật đáng ngạc nhiên khi lưu ý rằng văn học Gothic, thứ mà ngày nay
+                        chúng ta cho là ít rõ ràng, đã có trước các hình thức văn học của con người như thế nào.</p>
                     <div class="single-contact-block">
-                        <h4><i class="fa fa-fax"></i> Address</h4>
+                        <h4><i class="fa fa-fax"></i> Địa chỉ</h4>
                         <p>123 Main Street, Anytown, CA 12345 – USA</p>
                     </div>
                     <div class="single-contact-block">
-                        <h4><i class="fa fa-phone"></i> Phone</h4>
-                        <p>Mobile: (08) 123 456 789</p>
-                        <p>Hotline: 1009 678 456</p>
+                        <h4><i class="fa fa-phone"></i> Điện thoại</h4>
+                        <p>Di động: (08) 123 456 789</p>
+                        <p>Hotline: 09999999</p>
                     </div>
                     <div class="single-contact-block last-child">
                         <h4><i class="fa fa-envelope-o"></i> Email</h4>
@@ -131,28 +135,28 @@
             </div>
             <div class="col-lg-6 col-md-12 order-2 order-lg-1">
                 <div class="contact-form-content">
-                    <h3 class="contact-page-title">Tell Us Your Message</h3>
+                    <h3 class="contact-page-title">Hãy cho chúng tôi biết tin nhắn của bạn</h3>
                     <div class="contact-form">
                         <form id="contact-form" action="https://whizthemes.com/mail-php/mamunur/kenne/kenne.php">
                             <div class="form-group">
-                                <label>Your Name <span class="required">*</span></label>
+                                <label>Tên của bạn <span class="required">*</span></label>
                                 <input type="text" name="con_name" id="con_name" required>
                             </div>
                             <div class="form-group">
-                                <label>Your Email <span class="required">*</span></label>
+                                <label>Email của bạn <span class="required">*</span></label>
                                 <input type="email" name="con_email" id="con_email" required>
                             </div>
                             <div class="form-group">
-                                <label>Subject</label>
+                                <label>Chủ thể</label>
                                 <input type="text" name="con_subject" id="con_subject">
                             </div>
                             <div class="form-group form-group-2">
-                                <label>Your Message</label>
+                                <label>Tin nhắn của bạn</label>
                                 <textarea name="con_message" id="con_message"></textarea>
                             </div>
                             <div class="form-group">
                                 <button type="submit" value="submit" id="submit" class="kenne-contact-form_btn"
-                                    name="submit">send</button>
+                                    name="submit">Gửi</button>
                             </div>
                         </form>
                     </div>

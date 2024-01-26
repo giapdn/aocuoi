@@ -21,6 +21,10 @@ class Category extends BaseModel
         $sql = "UPDATE `tb_danhmuc` SET `mo_ta`='$mota',`path`='$path' WHERE id_danh_muc=".$id;
         return $this->SqlExecute($sql, 1);
     }
+    public function suaCategory2($id,$mota){
+        $sql = "UPDATE `tb_danhmuc` SET `mo_ta`='$mota' WHERE id_danh_muc=".$id;
+        return $this->SqlExecute($sql, 1);
+    }
     public function xoaCategory($id){
         $sql = "DELETE FROM tb_danhmuc WHERE id_danh_muc= $id";
         return $this->SqlExecute($sql);

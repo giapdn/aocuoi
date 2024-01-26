@@ -1,6 +1,8 @@
 <?php
 require_once "BaseModel.php";
-require_once "khachhang.php";
+
+require_once "KhachHang.php";
+
 
 class Product extends BaseModel
 {
@@ -14,7 +16,8 @@ class Product extends BaseModel
         $sql = "DELETE FROM tb_sanpham WHERE id_san_pham=$id";
         return $this->SqlExecute($sql);
     }
-    public function xoaMemProduct($id){
+    public function xoaMemProduct($id)
+    {
         $sql = "UPDATE tb_sanpham SET status = 0 WHERE id_san_pham=$id";
         return $this->SqlExecute($sql, 1);
     }
@@ -38,8 +41,13 @@ class Product extends BaseModel
     {
         $sql = "SELECT * FROM tb_sanpham WHERE 1";
         if ($ten_san_pham != "") {
-            $sql.=" and ten_san_pham like '%".$ten_san_pham."%'";
+            $sql .= " and ten_san_pham like '%" . $ten_san_pham . "%'";
         }
         return $this->SqlExecute($sql);
+    }
+    public function suaProduct2($id_san_pham, $ten_san_pham, $gia_san_pham, $mo_ta_san_pham, $ma_san_pham, $id_danh_muc)
+    {
+        $sql = "UPDATE tb_sanpham SET ten_san_pham='$ten_san_pham',gia_san_pham='$gia_san_pham',mo_ta_san_pham='$mo_ta_san_pham',ma_san_pham='$ma_san_pham',id_danh_muc='$id_danh_muc' WHERE id_san_pham=$id_san_pham";
+        return $this->SqlExecute($sql, 1);
     }
 }

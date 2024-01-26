@@ -24,9 +24,9 @@ class BaiDang extends BaseModel
         $sql = "SELECT * FROM tb_baidang WHERE id_bai_dang= $id";
         return $this->SqlExecute($sql, 1);
     }
-    public function suaBaiViet($id, $tieu_de, $noi_dung, $path, $username)
+    public function suaBaiViet($id, $tieu_de, $noi_dung, $path, $username,$trangthai)
     {
-        $sql = "UPDATE tb_baidang SET tieu_de='$tieu_de',noi_dung='$noi_dung',path='$path',username='$username' WHERE id_bai_dang= $id";
+        $sql = "UPDATE tb_baidang SET tieu_de='$tieu_de',noi_dung='$noi_dung',path='$path',username='$username',  trangthai ='$trangthai'  WHERE id_bai_dang= $id";
         return $this->SqlExecute($sql, 1);
     }
     public function timBaiViet($noi_dung)
@@ -37,4 +37,9 @@ class BaiDang extends BaseModel
         }
         return $this->SqlExecute($sql);
     }
+    public function suaBaiViet2($id,$tieu_de,$noi_dung,$username,$trangthai){
+        $sql = "UPDATE tb_baidang SET tieu_de='$tieu_de',noi_dung='$noi_dung',username='$username', trangthai = '$trangthai' WHERE id_bai_dang= $id";
+        return $this->SqlExecute($sql, 1);
+    }
+
 }

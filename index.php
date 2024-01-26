@@ -19,6 +19,19 @@ switch ($url) {
     case 'productpage':
         include "client/Views/Product/productpage.php";
         break;
+
+    case 'aodaicuoi':
+        include "client/Views/Product/aodaicuoi.php";
+        break;
+
+    case 'aocuoidiban':
+        include "client/Views/Product/aocuoidiban.php";
+        break;
+
+    case 'aocuoilamle':
+        include "client/Views/Product/aocuoilamle.php";
+        break;
+
     case 'productdetail':
         include "client/Views/Product/productdetail.php";
         break;
@@ -31,10 +44,14 @@ switch ($url) {
         include "client/Views/About/aboutus.php";
         break;
 
-        case 'checkout':
-            include "client/Views/CheckOut/checkout.php";
-            break;
-    
+    case 'checkout':
+        include "client/Views/CheckOut/checkout.php";
+        break;
+
+
+
+
+
 
 
     case 'cart':

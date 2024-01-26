@@ -45,7 +45,7 @@
                                         <form action="<?= $sua ?>" method="post">
                                             <input class="btn btn-success" type="submit" name="sua" value="Sửa">
                                         </form>
-                                        <form class="d-flex flex-column-reverse" action="<?=$xoa_sort ?>"  method="post">
+                                        <form class="d-flex flex-column-reverse" action="<?= $xoa_sort ?>" method="post">
                                             <input class="btn btn-warning" type="submit" name="xoa" value="Ẩn" onclick="return confirm('Bạn chắc chắn ẩn sản phẩm không?')">
                                         </form>
                                         <form class="d-flex flex-column-reverse" action="<?= $xoa ?>" method="post">
@@ -55,10 +55,8 @@
                                 </td>
                             <?php endforeach ?>
                             </tr>
-
                     </tbody>
                 </table>
-
             </div>
         </div>
     </div>
