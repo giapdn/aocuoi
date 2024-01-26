@@ -1,4 +1,25 @@
 <?php
+session_start();
+// Hàm kiểm tra quyền của người dùng
+// function checkRole()
+// {
+//     // Kiểm tra xem người dùng có quyền admin không
+//     if ($_SESSION['role'] != "1" && $_SESSION['role'] != "2") {
+//         // Nếu không phải admin, chuyển hướng người dùng đến trang không có quyền
+//         header("Location: login.php");
+//         exit();
+//     }
+// }
+// Kiểm tra đăng nhập
+if (isset($_SESSION['username'])) {
+    // Gọi hàm kiểm tra quyền sau khi đăng nhập
+    // checkRole();
+    // Người dùng có quyền admin đã đăng nhập, có thể hiển thị trang chính
+} else {
+    // Người dùng chưa đăng nhập, chuyển hướng đến trang đăng nhập
+    header("Location: Auth/login.php");
+    exit();
+}
 include "Views/header.php";
 include "Views/box_left.php";
 include_once "autoload.php";

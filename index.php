@@ -1,15 +1,24 @@
 <?php
 include "client/Views/header.php";
+include_once "./helper/helper.php";
+require_file("./Client/Controllers/");
 
 require_once "./client/controllers/lienHeController.php";
 $lienheCtrll = new lienHeController();
 $url = isset($_GET['url']) == true ? $_GET['url'] : '/';
 
+$Account = new AccountController();
+
 switch ($url) {
     case '/':
         include "client/Views/home.php";
         break;
-
+    case 'login':
+        $Account->login();
+        break;
+    case 'register':
+        $Account->register();
+        break;
     case 'page':
         include "client/Views/Pages/page.php";
         break;

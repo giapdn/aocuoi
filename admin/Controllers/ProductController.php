@@ -73,32 +73,32 @@ class ProductController
                 $ma_san_pham = $_POST['ma_san_pham'];
                 $id_danh_muc = $_POST['id_danh_muc'];
 
-                    if (!empty($img_path_default )) {
-                        // Kiểm tra và tạo thư mục lưu trữ nếu chưa tồn tại
-                        if (!is_dir($target_dir)) {
-                            mkdir($target_dir, 0755, true);
-                        }
-                        // Kiểm tra hình ảnh có hợp lệ không
-                        $check = getimagesize($_FILES['img_path_default']['tmp_name']);
-                        if ($check !== false) {
-                            if (move_uploaded_file($_FILES['img_path_default']['tmp_name'], $target_file)) {
-                                $this->product-> suaProduct($id_san_pham,$ten_san_pham,$gia_san_pham,$img_path_default,$mo_ta_san_pham,$ma_san_pham,$id_danh_muc);
-                                echo '<script>alert("sửa thành công")</script>';
-                                echo '<script>window.location.href="../admin/index.php?url=list-product"</script>';            
-                            } else {
-                                die("OOP !");
-                            }
-                        } else {
-                            $this->product->suaProduct2($id_san_pham,$ten_san_pham,$gia_san_pham,$mo_ta_san_pham,$ma_san_pham,$id_danh_muc);
+                if (!empty($img_path_default)) {
+                    // Kiểm tra và tạo thư mục lưu trữ nếu chưa tồn tại
+                    if (!is_dir($target_dir)) {
+                        mkdir($target_dir, 0755, true);
+                    }
+                    // Kiểm tra hình ảnh có hợp lệ không
+                    $check = getimagesize($_FILES['img_path_default']['tmp_name']);
+                    if ($check !== false) {
+                        if (move_uploaded_file($_FILES['img_path_default']['tmp_name'], $target_file)) {
+                            $this->product->suaProduct($id_san_pham, $ten_san_pham, $gia_san_pham, $img_path_default, $mo_ta_san_pham, $ma_san_pham, $id_danh_muc);
                             echo '<script>alert("sửa thành công")</script>';
-                            echo '<script>window.location.href="../admin/index.php?url=list-product"</script>';            
+                            echo '<script>window.location.href="../admin/index.php?url=list-product"</script>';
+                        } else {
+                            die("OOP !");
                         }
                     } else {
-                        $this->product->suaProduct2($id_san_pham,$ten_san_pham,$gia_san_pham,$mo_ta_san_pham,$ma_san_pham,$id_danh_muc);
+                        $this->product->suaProduct2($id_san_pham, $ten_san_pham, $gia_san_pham, $mo_ta_san_pham, $ma_san_pham, $id_danh_muc);
                         echo '<script>alert("sửa thành công")</script>';
-                        echo '<script>window.location.href="../admin/index.php?url=list-product"</script>';            
+                        echo '<script>window.location.href="../admin/index.php?url=list-product"</script>';
                     }
-            }else{
+                } else {
+                    $this->product->suaProduct2($id_san_pham, $ten_san_pham, $gia_san_pham, $mo_ta_san_pham, $ma_san_pham, $id_danh_muc);
+                    echo '<script>alert("sửa thành công")</script>';
+                    echo '<script>window.location.href="../admin/index.php?url=list-product"</script>';
+                }
+            } else {
 
                 $id_san_pham = $_GET['id'];
                 $hienThiSanPham = $this->product->hienthi($id_san_pham);

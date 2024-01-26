@@ -48,7 +48,17 @@
     <div class="main-wrapper">
 
         <!-- Begin Loading Area -->
+<<<<<<< Updated upstream
 
+=======
+        <!-- <div class="loading">
+            <div class="text-center middle">
+                <span class="loader">
+                    <span class="loader-inner"></span>
+                </span>
+            </div>
+        </div> -->
+>>>>>>> Stashed changes
         <!-- Loading Area End Here -->
 
         <!-- Begin Main Header Area Two -->
@@ -78,10 +88,10 @@
                                         </li>
 
                                         <li>
-                                            <a href="/aocuoi/client/Views/login-register/login.php">Đăng nhập và đăng ký</a>
+                                            <a href="./?url=login">Đăng nhập và đăng ký</a>
                                         </li>
                                         <li>
-                                            <a href="checkout.html">Đăng xuất</a>
+                                            <a href="./?url=logout">Đăng xuất</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -211,7 +221,7 @@
                             <div class="col-lg-12">
                                 <div class="sticky-header_nav position-relative">
                                     <div class="row align-items-center justify-content-between">
-                                        <div class="col-lg-2 col-sm-6" >
+                                        <div class="col-lg-2 col-sm-6">
                                             <div class="header-logo_area">
                                                 <a href="index.html">
                                                     <img src="client/assets/images/menu/logo/1.png" alt="Header Logo">
