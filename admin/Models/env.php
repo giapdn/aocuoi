@@ -1,6 +1,6 @@
 <?php
 
 const DBHOST = "localhost";
-const DBNAME = "aocuoi3";
+const DBNAME = "aocuoi";
 const DBUSER = "root";
 const DBPASS = "";
